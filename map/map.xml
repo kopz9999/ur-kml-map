@@ -1,0 +1,2093 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>University of Regina</name>
+    <description><![CDATA[The University of Regina's 200 academic programs and 10 faculties provide undergraduate/graduate students opportunities through knowledge and action. Our campuses in Regina and Saskatoon are located on Treaty 4 and Treaty 6 land and the traditional homelands of the Métis. In Regina, our main campus and historic College Avenue campus utilize 239 acres and provide an attractive study and work environment for our students, faculty and staff. Both Regina campuses are located in Wascana Centre, one of the largest urban parks in North America.]]></description>
+    <Style id="icon-1509-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1509-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1509-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1509-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1509-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1519-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1519-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1519-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1519-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1519-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1522-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1522-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1522-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1522-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1522-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1526-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1526-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1526-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1526-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1526-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1546-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1546-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1546-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1546-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1546-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1547-0288D1-nodesc-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1547-0288D1-nodesc-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1547-0288D1-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1547-0288D1-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1547-0288D1-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1548-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1548-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1548-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1548-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1548-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1577-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1577-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1577-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1577-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1577-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1635-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1635-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1635-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1635-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1635-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1636-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1636-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1636-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1636-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1636-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1646-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1646-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1646-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1646-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1646-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1664-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1664-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1664-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1664-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1664-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1680-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1680-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1680-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1680-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1680-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1685-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1685-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1685-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1685-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1685-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1701-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1701-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1701-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1701-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1701-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1709-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1709-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1709-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1709-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1709-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1753-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1753-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1753-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1753-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1753-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1820-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1820-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1820-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1820-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1820-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1886-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1886-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1886-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1886-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1886-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1890-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1890-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1890-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1890-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1890-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>Buildings</name>
+      <Placemark>
+        <name>Administration-Humanities Building</name>
+        <description><![CDATA[<img src="https://lh5.googleusercontent.com/s6f1Fx_KNbqV8xFJqsGGMc1IqFFwCyuw7N-oyBGIHULdF_PK_dHw_31-knga8fRd2IeV1ztZS7HAnG27WHoJi36-BOobSido_yltiaheEF6wStAFGFXaIv3qkzY5nEE" height="200" width="auto" /><br><br>Admissions, Centre on Aging and Health, English, Enrolment Services, Executive Offices/President's Office, Financial Services, History, Human Resources, International Languages, Journalism, Philosophy & Classics, Printing Services, Psychology, Registrar's Office, Resource Planning, Student Awards & Financial Aid]]></description>
+        <styleUrl>#icon-1546-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/s6f1Fx_KNbqV8xFJqsGGMc1IqFFwCyuw7N-oyBGIHULdF_PK_dHw_31-knga8fRd2IeV1ztZS7HAnG27WHoJi36-BOobSido_yltiaheEF6wStAFGFXaIv3qkzY5nEE</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -104.5893288,50.4193407,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Campion College</name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/6_zErPw7s8onCWHA1vrwpklUQk1RKpbjQ3gPBoAXP_OdjFoMjp3e3CnjUGouRnUfsXqf7C46UtwkQDbmfafo7hg-TJ_IAgzV1A-F1t99gPElHjcsEjFvWHk7SvBX9YYG" height="200" width="auto" /><br><br>Campion College academic and administrative offices,  Campion Library, Chapel, Humanities Research Institute<br>http://campioncollege.ca/]]></description>
+        <styleUrl>#icon-1546-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/6_zErPw7s8onCWHA1vrwpklUQk1RKpbjQ3gPBoAXP_OdjFoMjp3e3CnjUGouRnUfsXqf7C46UtwkQDbmfafo7hg-TJ_IAgzV1A-F1t99gPElHjcsEjFvWHk7SvBX9YYG</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -104.5870167,50.4183267,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Centre for Kinesiology, Health and Sport</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/qfJ2-g31_1eNRO7e0PNP4QwAi4QlX7_YCdhmi1uoeHrUmoCJdRZvdvUcCrjKEzArRASSBWlhqjT-T0GFQ5efyQjdnqYX-MpSn3vLuH8CfPFW5noZuFysdl-2rpY1BiHI" height="200" width="auto" /><br><br>Alliance Health, Alliance Pharmacy, Athletics, Fitness & Lifestyle Centre, Gyms, Kinesiology & Health Studies, Swimming Pool, Recreation & Athletic Services, Schwann Centre, SPHERU, U of R Rams Football Club]]></description>
+        <styleUrl>#icon-1546-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/qfJ2-g31_1eNRO7e0PNP4QwAi4QlX7_YCdhmi1uoeHrUmoCJdRZvdvUcCrjKEzArRASSBWlhqjT-T0GFQ5efyQjdnqYX-MpSn3vLuH8CfPFW5noZuFysdl-2rpY1BiHI</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -104.5874351,50.416968,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Classroom Building</name>
+        <description><![CDATA[<img src="https://lh4.googleusercontent.com/M21lF1rqrWQpaQJdiRpX1HD50C9fDkBsp8liztJMiADWC-viMkU82Dvqqwvc90IMF8dhqGSmzy1h7Q4yYGYtw21HhB5B2iaOQl3v07MW1SrJnMi3QcCQQU4I6JAJ9gfdkQ" height="200" width="auto" /><br><br>Anthropology, Arts, Economics, Geography and Environmental Studies, International Languages, Justice Studies, Language Resource Centre, Lost & Found, Mail Room, Politics and International Studies, Science, Religious Studies, Sociology & Social Studies, Women's & Gender Studies]]></description>
+        <styleUrl>#icon-1546-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/M21lF1rqrWQpaQJdiRpX1HD50C9fDkBsp8liztJMiADWC-viMkU82Dvqqwvc90IMF8dhqGSmzy1h7Q4yYGYtw21HhB5B2iaOQl3v07MW1SrJnMi3QcCQQU4I6JAJ9gfdkQ</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -104.5913726,50.4192411,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>College Building</name>
+        <description><![CDATA[<img src="https://lh4.googleusercontent.com/WAsA9IVZdf7rxn4rskxTxisGdOCY-PrBVo8rx_CSohUTiWhbPETzmt7K9eOmJ9IbbHA-rmKwUdVT8oum9_uqYTJN2ZB4KPBrtB2uvkSAUsgM9GLjKTve5wP6ixbrG3Uk2g" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1546-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/WAsA9IVZdf7rxn4rskxTxisGdOCY-PrBVo8rx_CSohUTiWhbPETzmt7K9eOmJ9IbbHA-rmKwUdVT8oum9_uqYTJN2ZB4KPBrtB2uvkSAUsgM9GLjKTve5wP6ixbrG3Uk2g</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -104.6108937,50.4400164,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>College West (Residence)</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/oa2fSHk-HXYJJAc1TwZMMMk9qnnaUIORQXcqp6UfKx5v4YNsPD1rPsCpm2wSP3GrG5p6UgAbgh1Euk620pDlGBrPB71x7tnHka9rm1s_1PCMIGMOiIFkcKG7ga7CBFzh" height="200" width="auto" /><br><br>Bookstore, Computer Science, Food Services, (Chartwells), Geology, Math & Stats, Parking & Transportation Services, Residences, Residence Services, Sask Police College, Sun Life Financial Psychology Training Clinic, SUNTEP, Supply Management Services, UR International]]></description>
+        <styleUrl>#icon-1546-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/oa2fSHk-HXYJJAc1TwZMMMk9qnnaUIORQXcqp6UfKx5v4YNsPD1rPsCpm2wSP3GrG5p6UgAbgh1Euk620pDlGBrPB71x7tnHka9rm1s_1PCMIGMOiIFkcKG7ga7CBFzh</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -104.5916113,50.4174893,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Conservatory of Performing Arts
+</name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/kCbWBgC5SpbR0nb-cS1hwJPhM_7ljvcAADMKyqPsXxwBkVx9jXEslYHU226N9-dcWd0hFEX4DD1xuvPAAKdlE0k2-8SsWERYXr-f_HBwkWBk33qYIT9YIbn00w6R-HcVuQ" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1546-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/kCbWBgC5SpbR0nb-cS1hwJPhM_7ljvcAADMKyqPsXxwBkVx9jXEslYHU226N9-dcWd0hFEX4DD1xuvPAAKdlE0k2-8SsWERYXr-f_HBwkWBk33qYIT9YIbn00w6R-HcVuQ</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -104.6115804,50.4400147,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Darke Hall</name>
+        <description><![CDATA[<img src="https://lh5.googleusercontent.com/PXEIBKj9UiVPBYKK1ufMN3bAyU8ts9tJibhBoqr09LQVOMs6noSzGziT27PePOKTXG3a5JrQwDf-igri2nzP3YjQSFT-Ozcl1t7TSGAA6La7Gx_0zBPD8fyrSHf7WTF1" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1546-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/PXEIBKj9UiVPBYKK1ufMN3bAyU8ts9tJibhBoqr09LQVOMs6noSzGziT27PePOKTXG3a5JrQwDf-igri2nzP3YjQSFT-Ozcl1t7TSGAA6La7Gx_0zBPD8fyrSHf7WTF1</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -104.6122777,50.440042,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Day Care </name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/3PVOhDFSOWfi8uxVryy9wziAJ4ArQv1EBYitggegQM4uWTZrtaFqLTooeI4Yo8T7D_oSl2ya9IIj573ag9SjHCmYGFSmQ-nWlDvxLEBDHErlv3wp9RtSwSpgJTNh9o0" height="200" width="auto" /><br><br>Wascana Co-operative Day Care]]></description>
+        <styleUrl>#icon-1546-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/3PVOhDFSOWfi8uxVryy9wziAJ4ArQv1EBYitggegQM4uWTZrtaFqLTooeI4Yo8T7D_oSl2ya9IIj573ag9SjHCmYGFSmQ-nWlDvxLEBDHErlv3wp9RtSwSpgJTNh9o0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -104.5922148,50.4177781,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Education Auditorium/Wings</name>
+        <description><![CDATA[<img src="https://lh5.googleusercontent.com/e6YbFe2sxIyAeXkzGiuBHwc2SudS8N4aJ8hHREqjyRmWpK74tGirxBXh05BGp3i9Xfrh0kGcCp_ndFMwr4T1TaO99127IVN5uMCzQSEc4AiCvGVV9FkEJ2lrw--cxdo" height="200" width="auto" /><br><br>Auditorium, classroom wings, rotunda]]></description>
+        <styleUrl>#icon-1546-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/e6YbFe2sxIyAeXkzGiuBHwc2SudS8N4aJ8hHREqjyRmWpK74tGirxBXh05BGp3i9Xfrh0kGcCp_ndFMwr4T1TaO99127IVN5uMCzQSEc4AiCvGVV9FkEJ2lrw--cxdo</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -104.588728,50.4165579,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Education Building</name>
+        <description><![CDATA[<img src="https://lh5.googleusercontent.com/A5wVxAUL9gtwwqr8O8u6nrkmkgkT04mXvh1QhsVkqxtYDZS_MhZpCago41cRamtcnn7dETGNDf4dgKxMglIcwauNuQ7oyVsBXeLml1jYWk84Sh1m9JZHS3wAxTvQsq864w" height="200" width="auto" /><br><br>AV Services, Business Administration, Centre for Management Development, Education, Education Auditorium, Engineering & Applied Science, Film, Information Services, IT Support Centre, Kenneth Levene Graduate School of Business, Media Production & Studies, Nursing, Paul J. Hill School of Business, Social Work]]></description>
+        <styleUrl>#icon-1546-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/A5wVxAUL9gtwwqr8O8u6nrkmkgkT04mXvh1QhsVkqxtYDZS_MhZpCago41cRamtcnn7dETGNDf4dgKxMglIcwauNuQ7oyVsBXeLml1jYWk84Sh1m9JZHS3wAxTvQsq864w</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -104.5894468,50.4167835,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>First Nations University of Canada</name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/kYzm-w1LkQxKfIWnak9D5aQpsLCvLQUorD0NGcTWLpH9eiLqkJm350waWrI1Ey1iMkH7SGZ8XUDcu38HAO__Q_sqr43R1J1BEroqVJ2cBTBl0hxGZNJMRsikMUl4DKY" height="200" width="auto" /><br><br>First Nations University of Canada academic & administrative offices and classrooms, FNUniv Library, Veterans Memorial Tipi<br>http://www.fnuniv.ca/]]></description>
+        <styleUrl>#icon-1546-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/kYzm-w1LkQxKfIWnak9D5aQpsLCvLQUorD0NGcTWLpH9eiLqkJm350waWrI1Ey1iMkH7SGZ8XUDcu38HAO__Q_sqr43R1J1BEroqVJ2cBTBl0hxGZNJMRsikMUl4DKY</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -104.5821163,50.4194222,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Greenhouse Gas Technology Centre</name>
+        <description><![CDATA[<img src="https://lh4.googleusercontent.com/w6ZA62jcCyfgoXbg-vJ_wPVIX3zhbCLWjmvKs_glfhdoS0wOccgj048Q1pgZtJZgykNeoc5xie9ZclxoRZWvsJ6dbLISsovaKZfQuJOX8vKCFxlo5zQt3GHK2uAJLg2E0A" height="200" width="auto" /><br><br>U of R Facilities Management, Greenhouse Gas Technology Centre]]></description>
+        <styleUrl>#icon-1546-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/w6ZA62jcCyfgoXbg-vJ_wPVIX3zhbCLWjmvKs_glfhdoS0wOccgj048Q1pgZtJZgykNeoc5xie9ZclxoRZWvsJ6dbLISsovaKZfQuJOX8vKCFxlo5zQt3GHK2uAJLg2E0A</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -104.5889908,50.4144693,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Heating Plant Building</name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/H4iOfEIuUeCtoBixnLK15kMHOKmLvrpvWpugZntdxFx2rHbgc6dnXbBgwVpwFiTqsCNfgi_wGAXSLjxIXTjUGQponyB2zWo68KszkKr5hp0D5HdyOHCXROi5jeTk8JAu" height="200" width="auto" /><br><br>University Heating Plant]]></description>
+        <styleUrl>#icon-1546-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/H4iOfEIuUeCtoBixnLK15kMHOKmLvrpvWpugZntdxFx2rHbgc6dnXbBgwVpwFiTqsCNfgi_wGAXSLjxIXTjUGQponyB2zWo68KszkKr5hp0D5HdyOHCXROi5jeTk8JAu</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -104.5884651,50.4152521,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ISM Canada
+</name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/4jxgdloTmROuIJsXWHMaP50kERqo58DaVTtiTvtVd7P9jkvx2YcvDac76w2_JN6mzQzgWsE-3Kv3zXTA-nySGPsDkXIVbnUrTedOAuLdOFWHC_fKGTan5iH9--LabP88" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1546-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/4jxgdloTmROuIJsXWHMaP50kERqo58DaVTtiTvtVd7P9jkvx2YcvDac76w2_JN6mzQzgWsE-3Kv3zXTA-nySGPsDkXIVbnUrTedOAuLdOFWHC_fKGTan5iH9--LabP88</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -104.5914423,50.4150675,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dr. John Archer Library</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/4MboITUuaNMeirb0rjYpr6IUcQi3poIrY6qSqznbrE3lpKpY7y9-WYYtRRcDM5eQqeKLByJ03NgqZdryr6iH8t0QadNMT0R1kiPeU-JsO3J68_aP8LB3vNs-QzJxM5Vb" height="200" width="auto" /><br><br>Archives & Special Collections, Archway Exhibition Space, Centre for Teaching & Learning, Copyright Office, Main Library]]></description>
+        <styleUrl>#icon-1546-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/4MboITUuaNMeirb0rjYpr6IUcQi3poIrY6qSqznbrE3lpKpY7y9-WYYtRRcDM5eQqeKLByJ03NgqZdryr6iH8t0QadNMT0R1kiPeU-JsO3J68_aP8LB3vNs-QzJxM5Vb</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -104.5903534,50.4188719,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kīšik Towers (Residence)
+</name>
+        <description><![CDATA[<img src="https://lh4.googleusercontent.com/MhuAVK_MARabUr6_g2X0oeeQFQnKcOSHotn11dDYChdutk8W5D6TFdM_8CDLk3KmAMHH1XXcb3vkLisy3QDJccOrNVqqOGTMIGkSfAEKocmnqw0r-PWwt044ur0BvE2UDw" height="200" width="auto" /><br><br>Awasis Child Care Co-operative, Housing Services, Residences, C-Store]]></description>
+        <styleUrl>#icon-1546-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/MhuAVK_MARabUr6_g2X0oeeQFQnKcOSHotn11dDYChdutk8W5D6TFdM_8CDLk3KmAMHH1XXcb3vkLisy3QDJccOrNVqqOGTMIGkSfAEKocmnqw0r-PWwt044ur0BvE2UDw</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -104.5871776,50.4187933,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Laboratory Building</name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/0xMdesYwnckvmX87F1T4LPGjumxPHdzLG8ZFd_IRIC7gG1rk6sCrdzZ3TIn_5AiZXFFHebNYSOcDnfngrZCyv7MVy5NKv_zWG1dJ9drDyV6qnlSbilUVGjcTwGdhovijzw" height="200" width="auto" /><br><br>Biology, Chemistry & Biochemistry, Physics, Science]]></description>
+        <styleUrl>#icon-1546-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/0xMdesYwnckvmX87F1T4LPGjumxPHdzLG8ZFd_IRIC7gG1rk6sCrdzZ3TIn_5AiZXFFHebNYSOcDnfngrZCyv7MVy5NKv_zWG1dJ9drDyV6qnlSbilUVGjcTwGdhovijzw</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -104.5920861,50.4186874,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Language Institute</name>
+        <description><![CDATA[<img src="https://lh4.googleusercontent.com/V87pU9uoQfeqUfR_9xOAdvHIwCYd7uYOdZe5Np8wsodq7T76nfwo3gi83GO_4FoPqvf9GoJt8Uhh5ulHGZfiezY9uPjUAVvamp6TIUGrQBeHjPUctNB8wi41Fc-JHOgx" height="200" width="auto" /><br><br>Centre canadien de recherché sur les francophonies en milieu minoritaire (CRFM), English as a Second Language (ESL), La Cité universitaire francophone, Le Programme du Bac, Le Programme d'études francophones et interculturelles, La Residence]]></description>
+        <styleUrl>#icon-1546-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/V87pU9uoQfeqUfR_9xOAdvHIwCYd7uYOdZe5Np8wsodq7T76nfwo3gi83GO_4FoPqvf9GoJt8Uhh5ulHGZfiezY9uPjUAVvamp6TIUGrQBeHjPUctNB8wi41Fc-JHOgx</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -104.5884222,50.4189505,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Luther College (Residence)
+</name>
+        <description><![CDATA[<img src="https://lh5.googleusercontent.com/UGNG8RzEb_rDWIPg4u2_BqKyj7lrAbpYDYaFhywyM3TUhC06SlH2AtOpdOfonCGG9L8vbiVrkIuKYWHSGnrbiZoz1DrJprqoLZMLx2hz9CHQASnnpva4YCmw94Q5MkhOYg" height="200" width="auto" /><br><br>Luther College academic & administrative offices, Cafeteria, The Connection Cafe, Luther Library, Residence, RESOLVE, Rex Schneider Auditorium<br>https://www.luthercollege.edu/university/]]></description>
+        <styleUrl>#icon-1546-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/UGNG8RzEb_rDWIPg4u2_BqKyj7lrAbpYDYaFhywyM3TUhC06SlH2AtOpdOfonCGG9L8vbiVrkIuKYWHSGnrbiZoz1DrJprqoLZMLx2hz9CHQASnnpva4YCmw94Q5MkhOYg</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -104.5857882,50.4183011,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Paskwāw Tower (Residence)
+</name>
+        <description><![CDATA[<img src="https://lh4.googleusercontent.com/BNqd_qMN3qqLQX9x-gfzCYpEYeaO8ctGPKZ2R6vQ0lSmqMwX6pX6_82Hy7fa7lj8b1RW8qg3WZJWxzxsqG7j79ush1bsCFIdxefA7aHZzqGv4fmfLXWvOfivuN3vhHE" height="200" width="auto" /><br><br>External Relations (Communications & Marketing, Alumni & Community Engagement, Development), Graduate Studies & Research, Residences]]></description>
+        <styleUrl>#icon-1546-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/BNqd_qMN3qqLQX9x-gfzCYpEYeaO8ctGPKZ2R6vQ0lSmqMwX6pX6_82Hy7fa7lj8b1RW8qg3WZJWxzxsqG7j79ush1bsCFIdxefA7aHZzqGv4fmfLXWvOfivuN3vhHE</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -104.5893127,50.4182362,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Petroleum Technology Research Centre</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/PoSCn20Fnz9HeJUU8cWX2_PsgoVpqVt87rA2xAvaI5AMGi0juMcAMn9ThSn7gLRNe0dTZkk9zEVFpIzsNpwTtq3-ItGuVRUitj5rHR9v_-mAiV_aUlUZuKpDowov38kggA" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1546-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/PoSCn20Fnz9HeJUU8cWX2_PsgoVpqVt87rA2xAvaI5AMGi0juMcAMn9ThSn7gLRNe0dTZkk9zEVFpIzsNpwTtq3-ItGuVRUitj5rHR9v_-mAiV_aUlUZuKpDowov38kggA</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -104.5902354,50.4143428,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Research and Innovation Centre</name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/C7IlkbrR_BE3dipSi1Ota3HAo9ohbATEBZZgrOx8tEQR_rd0ACepGnfxxXCn8cH3j9NeQWq6Fa46i9bCFFSqS8CkqvU0MzReVnMeFvqu9nMloVT91WCA84kksmnbj9W0UQ" height="200" width="auto" /><br><br>Aboriginal Student Centre, Campus Security, Institute for Environmental Change and Society, Nursing, Indigenization Office, Research Office, RICE Lab, Science Stores]]></description>
+        <styleUrl>#icon-1546-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/C7IlkbrR_BE3dipSi1Ota3HAo9ohbATEBZZgrOx8tEQR_rd0ACepGnfxxXCn8cH3j9NeQWq6Fa46i9bCFFSqS8CkqvU0MzReVnMeFvqu9nMloVT91WCA84kksmnbj9W0UQ</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -104.5919359,50.4182533,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Saskatchewan Disease Control Laboratory</name>
+        <description><![CDATA[<img src="https://lh4.googleusercontent.com/zFugbvleFWK4zYiIjsgUBeoQz41qjAXh0lHuoYrGr7UnEdXw0GMWTCgIdhW7fXirZZukTDyF0wwVYSea28V6Uhc37-yzzYkVpf6GHbw0sGT9aT7Jrh1il7z2McTHr0sOhA" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1546-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/zFugbvleFWK4zYiIjsgUBeoQz41qjAXh0lHuoYrGr7UnEdXw0GMWTCgIdhW7fXirZZukTDyF0wwVYSea28V6Uhc37-yzzYkVpf6GHbw0sGT9aT7Jrh1il7z2McTHr0sOhA</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -104.5915335,50.4140386,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Technology Development Facility</name>
+        <description><![CDATA[<img src="https://lh5.googleusercontent.com/uXFqP6lSA600zfcFiZX7CYzch50lCEmCiCBmhgURn5iK5EEvSxg5V2weBjb9O1ya_SuVJ9pEhX-E2X6uLcBj0qWG1C49LlvpYD82-jVtVdnO1jNsT_9Hq72M5EcQpm0" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1546-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/uXFqP6lSA600zfcFiZX7CYzch50lCEmCiCBmhgURn5iK5EEvSxg5V2weBjb9O1ya_SuVJ9pEhX-E2X6uLcBj0qWG1C49LlvpYD82-jVtVdnO1jNsT_9Hq72M5EcQpm0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -104.5974988,50.4071021,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Terrace</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/yiHdodCgZPyBxZliNWtWL5MOiOzNsvJ0wXgyNMBtnoUvEyk9mn1l6wj5MDZ9VWs1qa-MVz5CcT0ObeRoMnsLaX_wCsKvR5PXcrNQQvDs2shi86SHGlkEkglINnL6GWrQ" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1546-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/yiHdodCgZPyBxZliNWtWL5MOiOzNsvJ0wXgyNMBtnoUvEyk9mn1l6wj5MDZ9VWs1qa-MVz5CcT0ObeRoMnsLaX_wCsKvR5PXcrNQQvDs2shi86SHGlkEkglINnL6GWrQ</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -104.5896721,50.4133344,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Two Research Drive Building</name>
+        <description><![CDATA[<img src="https://lh4.googleusercontent.com/vNpsjRuyPirj2FmdA2c-KZyuA1l5D0exImd2ycwm6TZeo8WZtE6gzzlJLw7XhPhBmC95OhpomkitiKR-ZP1rDeKyT9DWcCOHu9WXKAC0dtKXRQAYsFd-mkfJ-FRQy3m6" height="200" width="auto" /><br><br>Collaborative Centre for Justice & Safety, Institute for Energy, Environment & Sustainable Communities, Indigenous Peoples' Health Research Centre, Johnson-Shoyama Graduate School of Public Policy, Saskatchewan Justice Institute, U of R Press]]></description>
+        <styleUrl>#icon-1546-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/vNpsjRuyPirj2FmdA2c-KZyuA1l5D0exImd2ycwm6TZeo8WZtE6gzzlJLw7XhPhBmC95OhpomkitiKR-ZP1rDeKyT9DWcCOHu9WXKAC0dtKXRQAYsFd-mkfJ-FRQy3m6</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -104.5903319,50.4152794,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Wakpá Tower (Residence)
+</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/v900RkPRlSjx07TufTm5Ao7mzerj2Lla_ohwJ6AWgejWrAa7Dl-KwSUpJSoSnQebC2SSgPCBjIg3kFEdU69MqocObi0bmJpK0FdhYUDYn4SAXiQ_d44_wj5BU6TJ5-lJ" height="200" width="auto" /><br><br>Conference Services, English as a Second Language (ESL), Residence Office, Residences]]></description>
+        <styleUrl>#icon-1546-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/v900RkPRlSjx07TufTm5Ao7mzerj2Lla_ohwJ6AWgejWrAa7Dl-KwSUpJSoSnQebC2SSgPCBjIg3kFEdU69MqocObi0bmJpK0FdhYUDYn4SAXiQ_d44_wj5BU6TJ5-lJ</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -104.5892483,50.4177132,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dr. William Riddell Centre</name>
+        <description><![CDATA[<img src="https://lh4.googleusercontent.com/QCbHfFFUbB5JkBX7yeZioJAPBZRr4g0GDJsYxscuD9rt_-jEXwc7Unx0NQj17fPkLAuPQ32ZDaUWizGRuLayymG8rohGp5WJN2eO1hLGR4-ek-XM4754sNTCbkmXFSZA" height="200" width="auto" /><br><br>Career Centre; Carillon, Centre for Student Accessibility; Co-op Education; Counselling Services; Food Court; Harassment, Discrimination Prevention & Conflict Resolution Services; The Owl Restaurant & Pub; Media, Art, and Performance; Music; Shumiatcher Open Stage (Shu-Box); University Theatre; Student Affairs; Student Employment Services; Student Success Centre; Students' Union (URSU); Theatre; UR Guarantee; Visual Arts; Visual Resource Centre.]]></description>
+        <styleUrl>#icon-1546-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/QCbHfFFUbB5JkBX7yeZioJAPBZRr4g0GDJsYxscuD9rt_-jEXwc7Unx0NQj17fPkLAuPQ32ZDaUWizGRuLayymG8rohGp5WJN2eO1hLGR4-ek-XM4754sNTCbkmXFSZA</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -104.591099,50.4167629,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Food</name>
+      <Placemark>
+        <name>Austin Grill Express
+</name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/UbXWPZKmYwpQQEs5YoFcE7QhpPEC2kTGcKe9PZd0sRVeJJSmf6od6s7W6UwaOUrzYi2MTVobPkYwBfzkE6i3sgxiiUwFxWlkuhTBLyua9Sdo26x-0QssHqhFt-FBn5v7pg" height="200" width="auto" /><br><br>Main Floor, Riddell Centre<br>http://www.dineoncampus.ca/uofregina/Menus/locations]]></description>
+        <styleUrl>#icon-1577-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/UbXWPZKmYwpQQEs5YoFcE7QhpPEC2kTGcKe9PZd0sRVeJJSmf6od6s7W6UwaOUrzYi2MTVobPkYwBfzkE6i3sgxiiUwFxWlkuhTBLyua9Sdo26x-0QssHqhFt-FBn5v7pg</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -104.59104,50.4166741,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Brewed Awakening</name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/bKEmHE_6vi4hjcGhRJM7OFjaqVF8pQs0Lhh_pzIUHev28sVEhl69vBywNW5CI4vR7VxPQ9RhzSR2IVaYkzpu-Jm0qA2QUNKJfXLODECH36S4Ow3qCT_YMXKg5YjfflmR0Q" height="200" width="auto" /><br><br>Main Floor, Campion College<br>http://campioncollege.ca/campus-life/food-services]]></description>
+        <styleUrl>#icon-1577-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/bKEmHE_6vi4hjcGhRJM7OFjaqVF8pQs0Lhh_pzIUHev28sVEhl69vBywNW5CI4vR7VxPQ9RhzSR2IVaYkzpu-Jm0qA2QUNKJfXLODECH36S4Ow3qCT_YMXKg5YjfflmR0Q</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -104.5868611,50.4184481,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Common Ground</name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/proC71m-UBDSAHwQnjDz1FoKxSLwrQ8kArwCt2PxWfnBqHUFCk0VFXGcxjgi5M1sHRI0Poae9F_dYD3tbbJWAqnbOFmmYT6LWqTPk5hMj1TUEWF2d6prNGfuG4OH5e-K" height="200" width="auto" /><br><br>Main Floor, Riddell Centre<br>http://www.dineoncampus.ca/uofregina/Menus/locations]]></description>
+        <styleUrl>#icon-1577-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/proC71m-UBDSAHwQnjDz1FoKxSLwrQ8kArwCt2PxWfnBqHUFCk0VFXGcxjgi5M1sHRI0Poae9F_dYD3tbbJWAqnbOFmmYT6LWqTPk5hMj1TUEWF2d6prNGfuG4OH5e-K</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -104.5910427,50.4169837,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>C-Store - KīšikTowers</name>
+        <description><![CDATA[<img src="https://lh5.googleusercontent.com/bbuHt6pu5c8P40K7XIkk1r8GWA6sDekYJU4j_Bim16zzpJKRVuRqckpNcA-AdMALwP6F5MiCNGU0jjserzHoJsueNaL8fY0-3CGgQ8TYascaAreREMyPQlU-7yjxM6M" height="200" width="auto" /><br><br>Main Floor, Kīšik Towers<br>http://www.dineoncampus.ca/uofregina/Menus/locations]]></description>
+        <styleUrl>#icon-1577-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/bbuHt6pu5c8P40K7XIkk1r8GWA6sDekYJU4j_Bim16zzpJKRVuRqckpNcA-AdMALwP6F5MiCNGU0jjserzHoJsueNaL8fY0-3CGgQ8TYascaAreREMyPQlU-7yjxM6M</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -104.5872876,50.4187628,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Fast Break - Smoke's Poutinerie
+]]></name>
+        <description><![CDATA[<img src="https://lh5.googleusercontent.com/C-oGpG6knq29ESpTl-TsS3rgdsgHwJgsfFUl5UF0r5FBCv-2M-ox3rI0Ey0JAfJrvElo5q_XwB6IvrIU4o5h4ZjleYED2Z_tImXOqtw-NENNksBQlrZdggd16Rjx9qc" height="200" width="auto" /><br><br>Main Floor, Centre for Kinesiology, Health & Sport<br>http://www.dineoncampus.ca/uofregina/Menus/locations]]></description>
+        <styleUrl>#icon-1577-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/C-oGpG6knq29ESpTl-TsS3rgdsgHwJgsfFUl5UF0r5FBCv-2M-ox3rI0Ey0JAfJrvElo5q_XwB6IvrIU4o5h4ZjleYED2Z_tImXOqtw-NENNksBQlrZdggd16Rjx9qc</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -104.588567,50.4167339,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Global Village
+</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/rTIvAqs06VAQumtaWHU2uC-TiVGGjwZXfUqV2CppXDr-GxM7Wq-YGX9zB4cEBodYK-WKr1Rm2MTsBmZj9MrWOAshqBSYej8D5lga9VtLvgtAeXwBJf2Ji3WKfpovI7I" height="200" width="auto" /><br><br>Main Floor, Riddell Centre<br>http://www.dineoncampus.ca/uofregina/Menus/locations]]></description>
+        <styleUrl>#icon-1577-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/rTIvAqs06VAQumtaWHU2uC-TiVGGjwZXfUqV2CppXDr-GxM7Wq-YGX9zB4cEBodYK-WKr1Rm2MTsBmZj9MrWOAshqBSYej8D5lga9VtLvgtAeXwBJf2Ji3WKfpovI7I</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -104.5910454,50.4167151,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Golden Prairie Confections
+</name>
+        <description><![CDATA[<img src="https://lh5.googleusercontent.com/hSsxMGWJfY-eIERWgyMPHUfzHcHEXxNjYBdfA3tRQaK4VtFl2ROtOUd5sUhwn25O9QOCLtJ4K6sRVSDRlJ2K4TDNHLp6baCzeopfLGfe1WdwSr_FwpKOFAjR0aj0oE3hsA" height="200" width="auto" /><br><br>Main Floor, Riddell Centre]]></description>
+        <styleUrl>#icon-1577-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/hSsxMGWJfY-eIERWgyMPHUfzHcHEXxNjYBdfA3tRQaK4VtFl2ROtOUd5sUhwn25O9QOCLtJ4K6sRVSDRlJ2K4TDNHLp6baCzeopfLGfe1WdwSr_FwpKOFAjR0aj0oE3hsA</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -104.5914102,50.4168245,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Henderson Cafe
+</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/em2LfjjHhsGjp9Yicr3BAbtTd5YYAYy240IRGDFBIRZ6cMdrGdbGb9j5rbU_CG-SsWteyQ3a5BvFJ6x4p9hYjQuTjoPU2Gm3tCb7QZ3dR2o42GE5Kz_hunFxhQhC-g0Q" height="200" width="auto" /><br><br>Main Floor, Riddell Centre]]></description>
+        <styleUrl>#icon-1577-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/em2LfjjHhsGjp9Yicr3BAbtTd5YYAYy240IRGDFBIRZ6cMdrGdbGb9j5rbU_CG-SsWteyQ3a5BvFJ6x4p9hYjQuTjoPU2Gm3tCb7QZ3dR2o42GE5Kz_hunFxhQhC-g0Q</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -104.5914102,50.4168245,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Lab Café -Lemongrass Pho
+</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/3kXzDVpnb7W7ayx8EydzZgQ_DLdWBI5eFzVmKqUPpMO1Em-xCG5T32DGVfTm0wKDEahRW2TlAhh1iJv8nLGgHF9IO0W_THf7JXsntm3LSjJ4FhVOpERjRglIUVKSXwOc4g" height="200" width="auto" /><br><br>Main Floor, Lab Building<br>http://www.dineoncampus.ca/uofregina/Menus/locations]]></description>
+        <styleUrl>#icon-1577-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/3kXzDVpnb7W7ayx8EydzZgQ_DLdWBI5eFzVmKqUPpMO1Em-xCG5T32DGVfTm0wKDEahRW2TlAhh1iJv8nLGgHF9IO0W_THf7JXsntm3LSjJ4FhVOpERjRglIUVKSXwOc4g</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -104.5918769,50.4187386,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Lab Café - Tim Horton's Express]]></name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/DA93O-3HpDgSDg0ofloeBBlePl6CFDh4q2avxroyPl7bLtSWzYISgoQpGhYXXWXetbsMmuAofA_wOx_vff5YyTTU5dEbPdJTlrDSihYT_bJT4X8nOeLo2Bnjv0B07Hyy" height="200" width="auto" /><br><br>Main Floor, Lab Building<br>http://www.dineoncampus.ca/uofregina/Menus/locations]]></description>
+        <styleUrl>#icon-1577-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/DA93O-3HpDgSDg0ofloeBBlePl6CFDh4q2avxroyPl7bLtSWzYISgoQpGhYXXWXetbsMmuAofA_wOx_vff5YyTTU5dEbPdJTlrDSihYT_bJT4X8nOeLo2Bnjv0B07Hyy</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -104.5918688,50.4186275,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Luther College Cafeteria
+</name>
+        <description><![CDATA[<img src="https://lh5.googleusercontent.com/pc4YNWt8lO24RRPLRfjF6pj8yNiYpa_CSCzDSlqNVVXR7k7wCq5ARn758aYZb68grZUkot-38HtOWifpnsK4vaolamLh6kk2SiFiRoeHnMaWHZaa_0G2999c8Sw9EH7P" height="200" width="auto" /><br><br>Main Floor, Luther College<br>https://www.luthercollege.edu/university/residence-food-services/cafeteria]]></description>
+        <styleUrl>#icon-1577-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/pc4YNWt8lO24RRPLRfjF6pj8yNiYpa_CSCzDSlqNVVXR7k7wCq5ARn758aYZb68grZUkot-38HtOWifpnsK4vaolamLh6kk2SiFiRoeHnMaWHZaa_0G2999c8Sw9EH7P</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -104.5859224,50.418161,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Pizza Pizza
+</name>
+        <description><![CDATA[<img src="https://lh4.googleusercontent.com/LQQ-OGW9m19gSeCA0bs1fygT1FWr-JVOrYVelaUYTBuXu3T0-KdoIrNbVbFO3Whb1Me-6LHYds0Y7SXh9Ntp7-ADKDbib1g7XRMEpzQC8CdU9W_YHBtiv1bFzKg9ty7mUg" height="200" width="auto" /><br><br>Main Floor, Riddell Centre<br>http://www.dineoncampus.ca/uofregina/Menus/locations]]></description>
+        <styleUrl>#icon-1577-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/LQQ-OGW9m19gSeCA0bs1fygT1FWr-JVOrYVelaUYTBuXu3T0-KdoIrNbVbFO3Whb1Me-6LHYds0Y7SXh9Ntp7-ADKDbib1g7XRMEpzQC8CdU9W_YHBtiv1bFzKg9ty7mUg</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -104.5910615,50.4167578,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Purblendz Smoothies & Extreme Pita
+]]></name>
+        <description><![CDATA[<img src="https://lh5.googleusercontent.com/wfu4xEQaPagbkzdWms9TrB5bh4mM9dd_uIKp3cATW3u_jWqwVLvRLbvXXcxSSvh_khBTRlu5ARryNWzkjdJ7fM73tkGSOW2MwzPwvYxvanAzt5EYgpPH4K173aBPsQU" height="200" width="auto" /><br><br>Main Floor, College West Building]]></description>
+        <styleUrl>#icon-1577-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/wfu4xEQaPagbkzdWms9TrB5bh4mM9dd_uIKp3cATW3u_jWqwVLvRLbvXXcxSSvh_khBTRlu5ARryNWzkjdJ7fM73tkGSOW2MwzPwvYxvanAzt5EYgpPH4K173aBPsQU</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -104.5917589,50.4171219,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Soup & Salad Bar
+]]></name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/P27X4VaY6Y6bOF3x7OeWPZnhrxMA_1DbzBDeGC0nO3FrdxsQ9Nkq_xl_P2OMqg-yV17yw8mRHNpN68hlyPBKMtTcPHS3gKmkC1Mdbk5QggiWyG7LfmqRoPKWaDcO_RAubA" height="200" width="auto" /><br><br>Main Floor, Riddell Centre<br>http://www.dineoncampus.ca/uofregina/Menus/locations]]></description>
+        <styleUrl>#icon-1577-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/P27X4VaY6Y6bOF3x7OeWPZnhrxMA_1DbzBDeGC0nO3FrdxsQ9Nkq_xl_P2OMqg-yV17yw8mRHNpN68hlyPBKMtTcPHS3gKmkC1Mdbk5QggiWyG7LfmqRoPKWaDcO_RAubA</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -104.5910373,50.4165955,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Subway</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/HeDECXAK8FRTfU9-6_0mm15uxM2e1bVpNtWunauRJyORaljPh0iUgVUyI5vZhLkL3Sj__JA0E9h6Y0SEf6_xaNNe_oAl8-g2rUTOKFo1BEe3ixwrPbnWyrufqsdM1mqQ" height="200" width="auto" /><br><br>Main Floor, Lab Building<br>http://www.dineoncampus.ca/uofregina/Menus/locations]]></description>
+        <styleUrl>#icon-1577-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/HeDECXAK8FRTfU9-6_0mm15uxM2e1bVpNtWunauRJyORaljPh0iUgVUyI5vZhLkL3Sj__JA0E9h6Y0SEf6_xaNNe_oAl8-g2rUTOKFo1BEe3ixwrPbnWyrufqsdM1mqQ</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -104.5918822,50.418848,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Connection Cafe
+</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/6tyDfFmk2MnO0nz6ycdGXohrombBIPdh9W5AjM2_mIbbIT2jrZz8LFP_ISC0NdXpZi1XL4vraZfBI24GcZgeWUkSJOxWa6NRc4KcIH-1K4GnMmkI8C3wawGtfl3Ws7UP" height="200" width="auto" /><br><br>Main Floor, Luther College]]></description>
+        <styleUrl>#icon-1577-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/6tyDfFmk2MnO0nz6ycdGXohrombBIPdh9W5AjM2_mIbbIT2jrZz8LFP_ISC0NdXpZi1XL4vraZfBI24GcZgeWUkSJOxWa6NRc4KcIH-1K4GnMmkI8C3wawGtfl3Ws7UP</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -104.5860887,50.4184583,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>The Grind
+</name>
+        <description><![CDATA[<img src="https://lh5.googleusercontent.com/cs-C57LJovDuCuDoJcQNDnWswRot3lVoCB7pg4Sv1YHVIKkO_9dEdAIsR4Q_IM-z2jBT0bYviAxCNY09SlbNcyuZ_fSEq5qLapOnL5Is1zI9l284vw_tz0g4x3UiNGE" height="200" width="auto" /><br><br>Main Floor, Administration-Humanities Building<br>http://www.dineoncampus.ca/uofregina/Menus/locations]]></description>
+        <styleUrl>#icon-1577-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/cs-C57LJovDuCuDoJcQNDnWswRot3lVoCB7pg4Sv1YHVIKkO_9dEdAIsR4Q_IM-z2jBT0bYviAxCNY09SlbNcyuZ_fSEq5qLapOnL5Is1zI9l284vw_tz0g4x3UiNGE</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -104.5896962,50.4190633,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[The Owl Restaurant & Pub
+]]></name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/aj1T_CSMBHPtIgEMk247h2C-zaK8qOKnNZLqbHCpzEqwT6_HLrSEodtiy-ywcvjZRllNUB3z_WAING__GyAqss5mgEW2aD7AvaYIDLG9tN5bOerqF7IuJTNWF_FfUd8n" height="200" width="auto" /><br><br>Main Floor, Riddell Centre<br>http://theowl.ursu.ca/]]></description>
+        <styleUrl>#icon-1577-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/aj1T_CSMBHPtIgEMk247h2C-zaK8qOKnNZLqbHCpzEqwT6_HLrSEodtiy-ywcvjZRllNUB3z_WAING__GyAqss5mgEW2aD7AvaYIDLG9tN5bOerqF7IuJTNWF_FfUd8n</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -104.5918125,50.4166501,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Tim Horton's - Riddell Centre]]></name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/-tWdnjjDVdyIqDiMzJKK1n_EHHC5L9mBlj9s4Ka8AlV-DRGng7Dzx7gPm94Zz19kRQkE_6U1buhsjJ6uSZKPr5tLqyrQCoTy3EC1QFxUk2koNU9OZjP2EmnmXEi_Y9s" height="200" width="auto" /><br><br>Main Floor, Riddell Centre<br>http://www.dineoncampus.ca/uofregina/Menus/locations]]></description>
+        <styleUrl>#icon-1577-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/-tWdnjjDVdyIqDiMzJKK1n_EHHC5L9mBlj9s4Ka8AlV-DRGng7Dzx7gPm94Zz19kRQkE_6U1buhsjJ6uSZKPr5tLqyrQCoTy3EC1QFxUk2koNU9OZjP2EmnmXEi_Y9s</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -104.5910239,50.4166301,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name><![CDATA[Recreation & Popular Campus Destinations]]></name>
+      <Placemark>
+        <name>Archway Exhibition Space
+</name>
+        <description><![CDATA[Main Floor, Dr. John Archer Library<br>https://www.uregina.ca/library/about_contact/art-gallery/index.html]]></description>
+        <styleUrl>#icon-1509-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -104.590407,50.4188207,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Baseball Diamond</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/tgYUADat1t_tWzwXgMwcMaQ9YYEqLKUeAaRrNFrSSE2fhmBrp8LBCQs5IjvQJl6M8SZuHfschB_if72hvi6c8i4bT2lTzmipB9P8ZiV_rZcUSMvbkxFjbj2a5Lm-xgvd" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1519-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/tgYUADat1t_tWzwXgMwcMaQ9YYEqLKUeAaRrNFrSSE2fhmBrp8LBCQs5IjvQJl6M8SZuHfschB_if72hvi6c8i4bT2lTzmipB9P8ZiV_rZcUSMvbkxFjbj2a5Lm-xgvd</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -104.5832777,50.4176868,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Beach Volleyball 
+</name>
+        <description><![CDATA[<img src="https://lh4.googleusercontent.com/cYdjymcnmZuV0NWXpcliHPmLEKMSCxWtXdyKSJM0Nq7bjqTey9s5REYDmGucDr8_iwG5IcsXwvDGFTohsJHs29eEoAtB4rl3G9Tysh3BOjlSWXmGkhdbpheGFy-mmr0" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1890-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/cYdjymcnmZuV0NWXpcliHPmLEKMSCxWtXdyKSJM0Nq7bjqTey9s5REYDmGucDr8_iwG5IcsXwvDGFTohsJHs29eEoAtB4rl3G9Tysh3BOjlSWXmGkhdbpheGFy-mmr0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -104.5847476,50.4168323,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Fifth Parallel Gallery</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/wWNbOE1giGFw5eQPMQvM_GP7qZCA--bMYZFUNvJ_JcUT9ZOa9CEjOR2zgPorTAPV76_qDxhvHWtGo0uZRWMxHrMkT4qYG3GvNMvJHWdKg6IYTAp8nTYkoJj5nVP-H4in" height="200" width="auto" /><br><br>Main Floor, Riddell Centre<br>https://www.facebook.com/TheFifthParallelGallery/]]></description>
+        <styleUrl>#icon-1509-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/wWNbOE1giGFw5eQPMQvM_GP7qZCA--bMYZFUNvJ_JcUT9ZOa9CEjOR2zgPorTAPV76_qDxhvHWtGo0uZRWMxHrMkT4qYG3GvNMvJHWdKg6IYTAp8nTYkoJj5nVP-H4in</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -104.5912975,50.4169031,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[Fitness & Lifestyle Centre
+]]></name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/nOrr63BXX5D6y9aq3hjlOrIxZXq_jrro6ZwOzcpSv6YxMpfUYyjihRJkpdAT20NkVLLarz662IvOWNH6j0w92ivPERLLynBuU4oUhC2juQQ63LxhS_zghQjc3wx74OQ_" height="200" width="auto" /><br><br>Second Floor, Centre for Kinesiology, Health & Sport<br>https://www.uregina.ca/recservices/fitness-centre/index.html]]></description>
+        <styleUrl>#icon-1680-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/nOrr63BXX5D6y9aq3hjlOrIxZXq_jrro6ZwOzcpSv6YxMpfUYyjihRJkpdAT20NkVLLarz662IvOWNH6j0w92ivPERLLynBuU4oUhC2juQQ63LxhS_zghQjc3wx74OQ_</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -104.5875987,50.4173594,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gym 1
+</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/p3XT8lvnjkm5p2Dqb4U8T8FimOjcIhfOuxUrDUrGkDHzbl0x_XzJN82Fmh_XjXNFbcN-6xwV1N5Xzp2k3VfZWnXkN532eiy3Js-N_qoF8QSxOoRd0cdb7TNdYCv0fFii" height="200" width="auto" /><br><br>Centre for Kinesiology, Sport and Health]]></description>
+        <styleUrl>#icon-1680-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/p3XT8lvnjkm5p2Dqb4U8T8FimOjcIhfOuxUrDUrGkDHzbl0x_XzJN82Fmh_XjXNFbcN-6xwV1N5Xzp2k3VfZWnXkN532eiy3Js-N_qoF8QSxOoRd0cdb7TNdYCv0fFii</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -104.5872098,50.4173936,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gym 2
+</name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/jfgWV6Zx5gAA9ZGQ2jFvVxTHDvWCj8vYrguQucrwOGp1pN5ecr1OOLENXDWIf75ZUHDgl11U35D37ZUFdM4QSb-4L0eHBGNeJlWnTc7XA1ttoHHELbqDo3HdEFYsSYCZ" height="200" width="auto" /><br><br>Centre for Kinesiology, Sport and Health]]></description>
+        <styleUrl>#icon-1680-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/jfgWV6Zx5gAA9ZGQ2jFvVxTHDvWCj8vYrguQucrwOGp1pN5ecr1OOLENXDWIf75ZUHDgl11U35D37ZUFdM4QSb-4L0eHBGNeJlWnTc7XA1ttoHHELbqDo3HdEFYsSYCZ</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -104.5871723,50.4169578,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gym 3 (Main Gym)
+</name>
+        <description><![CDATA[<img src="https://lh5.googleusercontent.com/54NeHXEMHnAuE0g3ghkxI5AqknxgVaRZMV3jHLQrRAI7ZhlWEi-U14EadWORkbq0NpMZX5UVvlVCCVmuxOp7CvUNrMAi6BI_MMe7MZmyyCksR7VWgC-BcnZUlSleWOQm" height="200" width="auto" /><br><br>Centre for Kinesiology, Health & Sport]]></description>
+        <styleUrl>#icon-1680-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/54NeHXEMHnAuE0g3ghkxI5AqknxgVaRZMV3jHLQrRAI7ZhlWEi-U14EadWORkbq0NpMZX5UVvlVCCVmuxOp7CvUNrMAi6BI_MMe7MZmyyCksR7VWgC-BcnZUlSleWOQm</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -104.5881003,50.4169407,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dr. Lloyd Barber Academic Green</name>
+        <description><![CDATA[<img src="https://lh5.googleusercontent.com/_Umq2Eo_mR6OE0UZyc7x4XCWqDJg4PYg7IrpJK1agb_wQZVgfeuN6uDGhqTrpIFvl6LxJvIfIacmNDAbi2mq6kfO4tA-ZjY_vT8FuPyBPK87MCzkCNnNxO8sCU3zsg6D" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1886-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/_Umq2Eo_mR6OE0UZyc7x4XCWqDJg4PYg7IrpJK1agb_wQZVgfeuN6uDGhqTrpIFvl6LxJvIfIacmNDAbi2mq6kfO4tA-ZjY_vT8FuPyBPK87MCzkCNnNxO8sCU3zsg6D</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -104.5902997,50.4180584,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Multi-use Pathway System</name>
+        <description><![CDATA[<img src="https://lh5.googleusercontent.com/SEpa8i76i-0VVQlnwnH_KSI2GVfhsMb_1Bi7FxhWcodwToMyW7uhq48nh2vWhgylZhBnrJ3VqdoI5oy67ON1hJ2ruKPhunjb27SVxxh3w5WN4m6q4dl28454yxWiu4E" height="200" width="auto" /><br><br>Cross-city pathway for cyclists, walkers, runners, skateboarders, roller skaters/bladers and skiers.<br>http://www.regina.ca/residents/parks/multi-use-pathways/]]></description>
+        <styleUrl>#icon-1522-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/SEpa8i76i-0VVQlnwnH_KSI2GVfhsMb_1Bi7FxhWcodwToMyW7uhq48nh2vWhgylZhBnrJ3VqdoI5oy67ON1hJ2ruKPhunjb27SVxxh3w5WN4m6q4dl28454yxWiu4E</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -104.5898008,50.4213294,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Playing Field (Artificial Turf)
+</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/MoPYQEtfya9vEnvus_2hRvu8xqf-9MaDuiIfsGj_jZgk00eqSY73PLZJcZ-_UbrFhUwsPFJmeORQpROy0SRGf9zpUHsHJmL-Pi1BfsuYfOVnBjBfevbe-jLXZh5eKXCluw" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1680-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/MoPYQEtfya9vEnvus_2hRvu8xqf-9MaDuiIfsGj_jZgk00eqSY73PLZJcZ-_UbrFhUwsPFJmeORQpROy0SRGf9zpUHsHJmL-Pi1BfsuYfOVnBjBfevbe-jLXZh5eKXCluw</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -104.5864642,50.4152452,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Playing Field 1
+</name>
+        <description><![CDATA[<img src="https://lh4.googleusercontent.com/4F-cb2nXaF6r-ilOoCO8nss78eQQ2eXpdCl5xq7eSCC3R2sfxvM0Eb0scAYnBiY3xrLEThyPUQS1bzDjHu3UM7wOFmBRPXhZqmHmuYCWRvDsO8LPW1r19HHafvduf3vG" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1680-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/4F-cb2nXaF6r-ilOoCO8nss78eQQ2eXpdCl5xq7eSCC3R2sfxvM0Eb0scAYnBiY3xrLEThyPUQS1bzDjHu3UM7wOFmBRPXhZqmHmuYCWRvDsO8LPW1r19HHafvduf3vG</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -104.5861851,50.4137695,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Playing Field 5
+</name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/_fWHjxe3O-0bz1y8IbVHO4jwno425edvSgSdxTNJ7eFrHOsC0ohLouRmdGmX1OeIf5MtEZK5kPldYSaAGICmeS2RjcSp3G-X6FKAhfzDTjyasw02ODzAfWR-8ssDNYUr" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1680-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/_fWHjxe3O-0bz1y8IbVHO4jwno425edvSgSdxTNJ7eFrHOsC0ohLouRmdGmX1OeIf5MtEZK5kPldYSaAGICmeS2RjcSp3G-X6FKAhfzDTjyasw02ODzAfWR-8ssDNYUr</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -104.5856327,50.4169241,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Shumiatcher Open Stage (Shu-Box)
+</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/Mse3-l7B4OdE4GkuxYBNqug0MQjqQ18zwGGBh01nkUhtWcOneFaTKLNWs6vyhypF6bBL1jDe7MlrTFaZHjp3k49FzZbhCMJeDltAv_gE-GGMaRVe2JCIVcmIgjOy1aEX" height="200" width="auto" /><br><br>Main Floor, Riddell Centre]]></description>
+        <styleUrl>#icon-1709-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/Mse3-l7B4OdE4GkuxYBNqug0MQjqQ18zwGGBh01nkUhtWcOneFaTKLNWs6vyhypF6bBL1jDe7MlrTFaZHjp3k49FzZbhCMJeDltAv_gE-GGMaRVe2JCIVcmIgjOy1aEX</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -104.5912385,50.4163255,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Swimming Pool
+</name>
+        <description><![CDATA[<img src="https://lh5.googleusercontent.com/YSgiFGVy-dLk-mWdkZIxtrlvrDn1-_H2o9LoGi12VK3bOtKlgMaB6HuNuA9w497ZskjpxLzPvAtamMl7T2gqddVIFuZnl6HkryN0l348q83nfCu4cOeiwHEBGkqOAbXk" height="200" width="auto" /><br><br>Centre for Kinesiology, Sport and Health<br>https://www.uregina.ca/recservices/aquatics/index.html]]></description>
+        <styleUrl>#icon-1701-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/YSgiFGVy-dLk-mWdkZIxtrlvrDn1-_H2o9LoGi12VK3bOtKlgMaB6HuNuA9w497ZskjpxLzPvAtamMl7T2gqddVIFuZnl6HkryN0l348q83nfCu4cOeiwHEBGkqOAbXk</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -104.5875558,50.4169817,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Sports Courts
+</name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/CWJ0-ZsYQU5XsMpco9QlikK7Uj97bvKXOwBNA2oYtXxXz__4RaVo5_atLDvUK8O_TghWtQxy93hlNv8AZw4WsMbob2unJq256wExqMZgQiBAgX4AEwIBJvwR_U3eQD5fiQ" height="200" width="auto" /><br><br>]]></description>
+        <styleUrl>#icon-1680-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/CWJ0-ZsYQU5XsMpco9QlikK7Uj97bvKXOwBNA2oYtXxXz__4RaVo5_atLDvUK8O_TghWtQxy93hlNv8AZw4WsMbob2unJq256wExqMZgQiBAgX4AEwIBJvwR_U3eQD5fiQ</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -104.5846831,50.4164767,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[The Owl Restaurant & Pub
+]]></name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/Pv4cXoqniVLgijSfwHE5B0Mb-6xvk5e3EVfGWdfuDDdGOVa7rfV_aEA80jj9OMkH-2SpL9C1stIgZ9EHJKo-bAo1zwckJIKFT2MD27IOCCIPLqGiObUY-ZhQ4b8OV_tC" height="200" width="auto" /><br><br>Main Floor, Riddell Centre<br>http://theowl.ursu.ca/]]></description>
+        <styleUrl>#icon-1577-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/Pv4cXoqniVLgijSfwHE5B0Mb-6xvk5e3EVfGWdfuDDdGOVa7rfV_aEA80jj9OMkH-2SpL9C1stIgZ9EHJKo-bAo1zwckJIKFT2MD27IOCCIPLqGiObUY-ZhQ4b8OV_tC</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -104.5916569,50.4165647,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>University Theatre</name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/_ZEWO2tOIEtmLr9Gq0Eu1TGePIuzcFUHdY8plNcgsiTxr9NxOv3b5eq4fSqAB44K7q2TCByEtGMpmMQHX0ZzMPyeWtKdxIFE-_EFeMqlkeNkwmIaMyxqHbzH6zfzbBlz" height="200" width="auto" /><br><br>Main Floor, Riddell Centre]]></description>
+        <styleUrl>#icon-1709-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/_ZEWO2tOIEtmLr9Gq0Eu1TGePIuzcFUHdY8plNcgsiTxr9NxOv3b5eq4fSqAB44K7q2TCByEtGMpmMQHX0ZzMPyeWtKdxIFE-_EFeMqlkeNkwmIaMyxqHbzH6zfzbBlz</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -104.5912546,50.4164656,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name><![CDATA[Retail & Banking]]></name>
+      <Placemark>
+        <name>Alliance Health Pharmacy</name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/E6SR4cVSdiksdLpHESwTdOnX2erQiVr4-sQo2CmOGQQ0WKKx3wyYJFMlLJDSQEYKBIl3B5g6cisxqxHjRWQ3sPOQObZewi8GT0YNXkOpe4nlDBLrFFwJCKshoDcucWdp" height="200" width="auto" /><br><br>Second Floor, Centre for Kinesiology, Health & Sport]]></description>
+        <styleUrl>#icon-1646-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/E6SR4cVSdiksdLpHESwTdOnX2erQiVr4-sQo2CmOGQQ0WKKx3wyYJFMlLJDSQEYKBIl3B5g6cisxqxHjRWQ3sPOQObZewi8GT0YNXkOpe4nlDBLrFFwJCKshoDcucWdp</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -104.5871401,50.4173201,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ATM</name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/hY9wzndn9kD6FfLRjWy7OHdr9RiDFnD9BdE_z7RPBJAO8uF-BBDGIw4tNpDBosfwaIYgBC51uSzhxO8phX8rlOqDuJqGUJ8bhfqok0TlZL3e_Yi6WzgchR75E1YvB4vF" height="200" width="auto" /><br><br>Main Floor Atrium, Centre for Kinesiology, Sport & Health]]></description>
+        <styleUrl>#icon-1753-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/hY9wzndn9kD6FfLRjWy7OHdr9RiDFnD9BdE_z7RPBJAO8uF-BBDGIw4tNpDBosfwaIYgBC51uSzhxO8phX8rlOqDuJqGUJ8bhfqok0TlZL3e_Yi6WzgchR75E1YvB4vF</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -104.5885321,50.416751,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ATM</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/Tumr7u4YnQtx6pDnS4GdwjV6JzpHFk5hCUh1XJ-Dx7iOggYOmRKcF8Sw4orxjTtBsB_QJHGpZbtUl_igFEu9UaBQb8ZBShBTFwR7EdGRN_oi5n5WUTKEq8yod1nCS2W5" height="200" width="auto" /><br><br>Main Floor, Paskwāw Tower]]></description>
+        <styleUrl>#icon-1753-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/Tumr7u4YnQtx6pDnS4GdwjV6JzpHFk5hCUh1XJ-Dx7iOggYOmRKcF8Sw4orxjTtBsB_QJHGpZbtUl_igFEu9UaBQb8ZBShBTFwR7EdGRN_oi5n5WUTKEq8yod1nCS2W5</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -104.5893073,50.4185677,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Bookstore</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/ctfzPEF1wm8ie2e4QYjhAWdNpP5glczCZT_PVGeZRGXahW9aHUgBp2vMkMFdzmFepIuEkvtn76dk_MCY6o4K5EBMEsXIy_V6YmiAFFnKNpm8SkdPs-Tcs3D6ClwLBWqd" height="200" width="auto" /><br><br>Main Floor, College West Building<br>http://ebookstore.uregina.ca/]]></description>
+        <styleUrl>#icon-1526-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/ctfzPEF1wm8ie2e4QYjhAWdNpP5glczCZT_PVGeZRGXahW9aHUgBp2vMkMFdzmFepIuEkvtn76dk_MCY6o4K5EBMEsXIy_V6YmiAFFnKNpm8SkdPs-Tcs3D6ClwLBWqd</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -104.5920324,50.4170911,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>CIBC ATM
+</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/ptyVM7-kya7AzGlOglDfNKEMpZ7Kwt1qc72-hB_5sh8rcPBHKdZnXNadUuNn9bHfkNgnT3wk0yNvNsPyKs8OtmbjPo50OpFPc1bK6hH-xn7W0S1ddZXF5I7X9UjY98I" height="200" width="auto" /><br><br>Main Floor, Riddell Centre]]></description>
+        <styleUrl>#icon-1753-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/ptyVM7-kya7AzGlOglDfNKEMpZ7Kwt1qc72-hB_5sh8rcPBHKdZnXNadUuNn9bHfkNgnT3wk0yNvNsPyKs8OtmbjPo50OpFPc1bK6hH-xn7W0S1ddZXF5I7X9UjY98I</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -104.5911714,50.4168791,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Conexus Credit Union ATM
+</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/anxzUXdqqKHt9M5D6mb1Vv_PYAZzzTtz7drqgyd4NMT9SL6FSjn3JSAqvya-Yc5z3z21U3TSxq6LmiX4ogmEe3RcsIaYoYXPNS-mwoi1sx3LaJvasAa5XXPS_t5ac9o" height="200" width="auto" /><br><br>Main Floor, College West Building]]></description>
+        <styleUrl>#icon-1753-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/anxzUXdqqKHt9M5D6mb1Vv_PYAZzzTtz7drqgyd4NMT9SL6FSjn3JSAqvya-Yc5z3z21U3TSxq6LmiX4ogmEe3RcsIaYoYXPNS-mwoi1sx3LaJvasAa5XXPS_t5ac9o</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -104.5917106,50.4178021,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Conexus Credit Union ATM</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/mPmkNqAK0bCMuOKnSYPp3AFTWq_lPVuWjlZRkY-wGozicgsuZO--SU-ghTxtXbLFyOipAzg7HcwHjl1jl_QHKb4Dl8GTfeOLathCGFD81v1gHtR6wTWfWIGxxb59yT0" height="200" width="auto" /><br><br>Main Floor, First Nations University of Canada]]></description>
+        <styleUrl>#icon-1753-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/mPmkNqAK0bCMuOKnSYPp3AFTWq_lPVuWjlZRkY-wGozicgsuZO--SU-ghTxtXbLFyOipAzg7HcwHjl1jl_QHKb4Dl8GTfeOLathCGFD81v1gHtR6wTWfWIGxxb59yT0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -104.5817542,50.4194974,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>C-Store - Kīšik Towers</name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/bEp4nV2fJ3uYmYnjC1b_66nv6DZCLETPVe23H9c97ZimyOFq4qEu2tX9ZwpStOLHu4iZLJAEGHU4kxZBEr7lh_xOb9swzoZYjzccxXa1FP61bzfk8TmnGrj5ZI90mDS4Nw" height="200" width="auto" /><br><br>Main Floor, Kīšik Towers<br>http://www.dineoncampus.ca/uofregina/Menus/locations]]></description>
+        <styleUrl>#icon-1685-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/bEp4nV2fJ3uYmYnjC1b_66nv6DZCLETPVe23H9c97ZimyOFq4qEu2tX9ZwpStOLHu4iZLJAEGHU4kxZBEr7lh_xOb9swzoZYjzccxXa1FP61bzfk8TmnGrj5ZI90mDS4Nw</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -104.5873037,50.418773,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Golden Prairie Confections
+</name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/0X5dsT1a_PvFhDIz29_OJf70X7W_aJTHFsdeXgdzCBpqjbOLp83UQF11Cj-I-RfyNVLgQUcU51DIkJtcRByGQTnLAvIao1myXbn1LtqoaNj9TyZr39ulS5Iz-UZh9785rQ" height="200" width="auto" /><br><br>Main Floor, Riddell Centre]]></description>
+        <styleUrl>#icon-1685-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/0X5dsT1a_PvFhDIz29_OJf70X7W_aJTHFsdeXgdzCBpqjbOLp83UQF11Cj-I-RfyNVLgQUcU51DIkJtcRByGQTnLAvIao1myXbn1LtqoaNj9TyZr39ulS5Iz-UZh9785rQ</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -104.5911741,50.4167698,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>PC Place
+</name>
+        <description><![CDATA[<img src="https://lh4.googleusercontent.com/QYvh3-pM76WB3V0F6Fag9-PN_ZdBqecEp23GRFseLsEif7Yla0uv1dFt8YpJIHndAgR8w9UTyoG6B8nktZrV7h4RsFsEqGgnCMyFKOxaURrSKAc05QCpB6XAP4A4tQG0" height="200" width="auto" /><br><br>Main Floor, College West Building]]></description>
+        <styleUrl>#icon-1820-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/QYvh3-pM76WB3V0F6Fag9-PN_ZdBqecEp23GRFseLsEif7Yla0uv1dFt8YpJIHndAgR8w9UTyoG6B8nktZrV7h4RsFsEqGgnCMyFKOxaURrSKAc05QCpB6XAP4A4tQG0</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -104.5915523,50.417127,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Royal Bank ATM
+</name>
+        <description><![CDATA[<img src="https://lh3.googleusercontent.com/09oPuR6rIP_tWocpG6uwCMScrnF9cAyqeJ9XcAVVUigeMjDuPG0FdSmqb5Rdw5cCJ3KjQy_Grk-6oh_g_uphfusAkeXp3lBh0M-UmAv6tLVN26BH74j73llz3oWmESWIcA" height="200" width="auto" /><br><br>Main Floor, Lab Building]]></description>
+        <styleUrl>#icon-1753-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh3.googleusercontent.com/09oPuR6rIP_tWocpG6uwCMScrnF9cAyqeJ9XcAVVUigeMjDuPG0FdSmqb5Rdw5cCJ3KjQy_Grk-6oh_g_uphfusAkeXp3lBh0M-UmAv6tLVN26BH74j73llz3oWmESWIcA</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -104.5919036,50.4189813,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Royal Bank ATM
+</name>
+        <description><![CDATA[<img src="https://lh4.googleusercontent.com/B4IzWyfpw8KAXohOv8yvDCCCJ1tnXIt-YUq0_hr3U5C48maqDUs7XWWqYjx-FH5FOXGHL6QEqxLVS_nF6aKqkH9fAGq4Iu3Ap8_o0YHYi6rbxsmoAHjH_MoFJ1TNx1E" height="200" width="auto" /><br><br>Main Floor, Campion College]]></description>
+        <styleUrl>#icon-1753-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/B4IzWyfpw8KAXohOv8yvDCCCJ1tnXIt-YUq0_hr3U5C48maqDUs7XWWqYjx-FH5FOXGHL6QEqxLVS_nF6aKqkH9fAGq4Iu3Ap8_o0YHYi6rbxsmoAHjH_MoFJ1TNx1E</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -104.5872232,50.418402,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Scotiabank ATM
+</name>
+        <description><![CDATA[<img src="https://lh5.googleusercontent.com/jdw3A0LULm2qj8hSjJszjHqEpfROeqTrM-YON6zv43z-OP6bbl5KZr8yDCEKhtEWHASYxmENU050ROPjTKjosYJi4vl514ROmYaEXSNeNlvWjJauH9oj7x82tInNuZj6" height="200" width="auto" /><br><br>Main Floor, Lab Building]]></description>
+        <styleUrl>#icon-1753-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/jdw3A0LULm2qj8hSjJszjHqEpfROeqTrM-YON6zv43z-OP6bbl5KZr8yDCEKhtEWHASYxmENU050ROPjTKjosYJi4vl514ROmYaEXSNeNlvWjJauH9oj7x82tInNuZj6</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -104.5919037,50.4185951,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Libraries</name>
+      <Placemark>
+        <name>Campion College Library</name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/W_u_bqOO-bRcPU1IMRJuWQQTWy8FLd-KtpbPVLHjYnqSg1_EvvfaeeQOuHgJO9DUI6u2fQoFwGK3z-__jphjJXGoIO-z0UWbpf3WWKUUrJ-brHMVFvoeNQUECnyZHBbk" height="200" width="auto" /><br><br>Second Floor, Campion College<br>http://campioncollege.ca/student-services/library]]></description>
+        <styleUrl>#icon-1664-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/W_u_bqOO-bRcPU1IMRJuWQQTWy8FLd-KtpbPVLHjYnqSg1_EvvfaeeQOuHgJO9DUI6u2fQoFwGK3z-__jphjJXGoIO-z0UWbpf3WWKUUrJ-brHMVFvoeNQUECnyZHBbk</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -104.5870328,50.4182567,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>First Nations University of Canada Library</name>
+        <description><![CDATA[<img src="https://lh4.googleusercontent.com/f5_zvKlJo-FvZTPXB_Jk8A6JvedMwSGKFzDiOMuWo15vS6NdUzAoWn4PF4BitjFN_FZBrV6KOWv7tqoWGPYhlg23DTDwZjrgZdOgA4zuLEmFCpgNe22At2HIhWbawmZMsA" height="200" width="auto" /><br><br>Main Floor, First Nations University of Canada<br>http://fnuniv.ca/library]]></description>
+        <styleUrl>#icon-1664-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/f5_zvKlJo-FvZTPXB_Jk8A6JvedMwSGKFzDiOMuWo15vS6NdUzAoWn4PF4BitjFN_FZBrV6KOWv7tqoWGPYhlg23DTDwZjrgZdOgA4zuLEmFCpgNe22At2HIhWbawmZMsA</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -104.5822263,50.4192923,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Gabriel Dumont Library</name>
+        <description><![CDATA[<img src="https://lh5.googleusercontent.com/7i_VfS_ur0K0L6hOw5dGJi2A4ikywIq1s1_9Na0Ckn-jYmApGY0qnP8690LzvNrw8Mx-PvcshKtwiKBoi56qPDbSd3USu4jarbaPKM10pTR5QHsCV6z2ZhBdpUdPT_bvWg" height="200" width="auto" /><br><br>Second Floor, College West Building<br>https://gdins.org/student-services/library/]]></description>
+        <styleUrl>#icon-1664-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/7i_VfS_ur0K0L6hOw5dGJi2A4ikywIq1s1_9Na0Ckn-jYmApGY0qnP8690LzvNrw8Mx-PvcshKtwiKBoi56qPDbSd3USu4jarbaPKM10pTR5QHsCV6z2ZhBdpUdPT_bvWg</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -104.591724,50.4174107,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Dr. John Archer Library</name>
+        <description><![CDATA[<img src="https://lh6.googleusercontent.com/i_WbSb8mKsPsYEoOhE50II9vEwMimgB-iUoBqSBzBQxm-SFRsu-rgTxDQMvz7nos6t5yS05-QL1tm19ZH97PORyYcJv_t_A2-j75YLXHetfUGT2LdoIFCKklc4c_Yb88" height="200" width="auto" /><br><br>Dr. John Archer Library Building<br>https://www.uregina.ca/library]]></description>
+        <styleUrl>#icon-1664-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh6.googleusercontent.com/i_WbSb8mKsPsYEoOhE50II9vEwMimgB-iUoBqSBzBQxm-SFRsu-rgTxDQMvz7nos6t5yS05-QL1tm19ZH97PORyYcJv_t_A2-j75YLXHetfUGT2LdoIFCKklc4c_Yb88</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -104.590407,50.4188207,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Luther College Library</name>
+        <description><![CDATA[<img src="https://lh4.googleusercontent.com/313CUKtxorZ2V9reL3z7UU-V8koZqrwEfUeZU-u6OsJSDC34ryTG6n2MyuOKRKMTqh7SfEWIVAJJrOaW4YLS66hhFRzFhZyGwloUBHSUfT-zlFBPJw6sxcXILyPZ2Mjn" height="200" width="auto" /><br><br>Main Floor, Luther College<br>https://www.luthercollege.edu/university/academics/luther-library]]></description>
+        <styleUrl>#icon-1664-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh4.googleusercontent.com/313CUKtxorZ2V9reL3z7UU-V8koZqrwEfUeZU-u6OsJSDC34ryTG6n2MyuOKRKMTqh7SfEWIVAJJrOaW4YLS66hhFRzFhZyGwloUBHSUfT-zlFBPJw6sxcXILyPZ2Mjn</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -104.585681,50.4182567,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>Regina Destinations</name>
+      <Placemark>
+        <name>Downtown</name>
+        <styleUrl>#icon-1547-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            -104.6126747,50.4506184,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Kramer Imax Theatre
+</name>
+        <description><![CDATA[2903 Powerhouse Dr, Regina, SK S4N 0A1, Canada<br>www.sasksciencecentre.com]]></description>
+        <styleUrl>#icon-1635-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -104.5938724,50.4328394,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>MacKenzie Art Gallery</name>
+        <description><![CDATA[3475 Albert St, Regina, SK S4S 6X6, Canada<br>www.mackenzieartgallery.ca]]></description>
+        <styleUrl>#icon-1509-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -104.6162367,50.4250411,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Multi-Use Pathway System</name>
+        <description><![CDATA[<img src="https://lh5.googleusercontent.com/IC7ks8tRfUur2MgC6KQMNY20kzimUktiAGvhQLynzZUUVK1Jgi9yyCeTe015xNd2RuAOtVpWbr23t7rZYAC3vdYgQsPBHUbFstcDpzMtMgfBkOLNIQAp9E2fIf-4rYCrBg" height="200" width="auto" /><br><br>Cross-city pathway for cyclists, walkers, runners, skateboarders, roller skaters/bladers and skiers.<br>http://www.regina.ca/residents/parks/multi-use-pathways/]]></description>
+        <styleUrl>#icon-1522-0288D1</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://lh5.googleusercontent.com/IC7ks8tRfUur2MgC6KQMNY20kzimUktiAGvhQLynzZUUVK1Jgi9yyCeTe015xNd2RuAOtVpWbr23t7rZYAC3vdYgQsPBHUbFstcDpzMtMgfBkOLNIQAp9E2fIf-4rYCrBg</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            -104.5902514,50.4212201,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>RCMP Heritage Centre
+</name>
+        <description><![CDATA[5907 Dewdney Avenue, Regina, S4T 0P4, Canada<br>www.rcmpheritagecentre.com]]></description>
+        <styleUrl>#icon-1636-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -104.6662331,50.4536515,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Royal Saskatchewan Museum
+</name>
+        <description><![CDATA[2445 Albert St, Regina, SK S4P 4W7, Canada<br>www.royalsaskmuseum.ca]]></description>
+        <styleUrl>#icon-1548-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -104.6157217,50.4398507,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Saskatchewan Legislative Building</name>
+        <description><![CDATA[2405 Legislative Dr, Regina, SK S4S 0B3, Canada<br>www.legassembly.sk.ca]]></description>
+        <styleUrl>#icon-1548-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -104.6151746,50.4326139,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Saskatchewan Science Centre
+</name>
+        <description><![CDATA[2903 Powerhouse Dr, Regina, SK S4N 0A1, Canada<br>www.sasksciencecentre.com]]></description>
+        <styleUrl>#icon-1636-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            -104.594543,50.432901,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

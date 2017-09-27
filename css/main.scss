@@ -1,0 +1,672 @@
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * Vendor-prefixed and regular ::selection selectors cannot be combined:
+ * https://stackoverflow.com/a/16982510/7133471
+ *
+ * Customize the background color to match your design.
+ */
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   U Of R Map Styles
+   ========================================================================== */
+
+//define color vars
+$white: #fff;
+$green: #004529;
+$orange: #E76A02;
+$red: #C11029;
+$lightpurple: #98005C;
+$blue: #007AC3;
+$purple: #651E77;
+$charcoal: #4F4F4F;
+$grey: #EBEBEB;
+
+.uofrmap-wrap {
+    position:relative;
+    overflow:hidden;
+    background:#999;
+
+    .uofrmap-header {
+        background:#004529 url('../img/uofrlogo-white.png') no-repeat center center;
+        background-size: auto 100%;
+        height:3em;
+        a {color:#fff;}
+
+        .sidenav-toggle {
+            display:block;
+            padding-left:1em;
+            padding-top:0.8em;
+            img {
+                width:25px
+            }
+        }
+        
+
+        .geo {
+            width:25px;
+        }
+        .search {
+            width:20px;
+        }
+        ul {list-style:none;
+            float:right;
+            padding-right:1em;
+            margin:-1.5em 0 0 0;
+
+            li {
+                display:inline;
+                margin:0 0 0 0.5em;
+                // float: right;
+                // clear:both;
+                a {
+                    display:inline-block;
+                    &:hover, &:focus {
+                        color:#eee;
+                    }
+                }
+            }
+        }
+    }
+    
+
+    .uofrmap-sidenav.active {
+        left:0;
+    }
+    .uofrmap-sidenav {
+        background:#fff;
+        border:1px solid #eee;
+        height:100%;
+        position:absolute;
+        left:-37.5%;
+        width:35%;
+        top:0;
+        z-index:99;
+        padding:1%;
+        -webkit-transition: all 250ms;
+          -o-transition: all 250ms;
+          transition: all 250ms;
+          overflow:auto;
+
+          .sidenav-toggle {
+            display:block;
+            padding-left:1em;
+            padding-top:0.8em;
+                img {
+                    width:35px
+                }
+            }
+
+        // accordion styles
+        .accordion {
+          position: relative;
+          margin-bottom: 1px;
+          width: 100%;
+          color: $charcoal;
+          overflow: hidden;
+          ul {
+            margin:0;
+            padding-left:0px;
+          }
+          li {
+            cursor:pointer;
+            font-family:sans-serif;
+            font-size:1.1em;
+            padding:0.6em 0.6em;
+            list-style:none;
+
+            img {
+                width:18px;
+                margin-right:10px;
+                vertical-align:top;
+            }
+          }
+          li:hover, li:focus {
+            // text-decoration:underline;
+          }
+    
+
+
+
+        }
+        input {
+          position: absolute;
+          opacity: 0;
+          z-index: -1;
+        }
+        label {
+          position: relative;
+          display: block;
+          padding: 1em 1em 1em 2.5em;
+          background: $grey;
+          font-weight: bold;
+          font-family:sans-serif;
+          line-height: 1;
+          cursor: pointer;
+        }
+        
+        .accordion-content {
+          max-height: 0;
+          overflow: auto;
+          background: #fff;
+          -webkit-transition: max-height .35s;
+          -o-transition: max-height .35s;
+          transition: max-height .35s;
+        }
+        
+        .accordion-content p {
+          margin: 1em;
+        }
+        /* :checked */
+        input:checked ~ .accordion-content {
+          max-height: 16em;
+        }
+        /* Icon */
+        label::after {
+          position: absolute;
+          right: 0;
+          top: 0;
+          display: block;
+          width: 3em;
+          height: 3em;
+          line-height: 3;
+          text-align: center;
+          -webkit-transition: all .35s;
+          -o-transition: all .35s;
+          transition: all .35s;
+        }
+        input[type=checkbox] + label::after {
+          // content: "+";
+        // content: "\25BC";
+        
+
+        }
+        // input[type=radio] + label::after {
+        //   content: "\25BC";
+        // }
+        input[type=checkbox]:checked + label {
+            background:$charcoal;
+            color:#fff;
+        }
+
+        input[type=checkbox]:checked + label::after {
+          // transform: rotate(315deg);
+            // transform: rotateX(180deg);
+            content: "";
+        background: url('../img/close.png') no-repeat 50% 50%;
+        background-size:35%;
+
+        }
+        // input[type=radio]:checked + label::after {
+        //   transform: rotateX(180deg);
+        // }
+
+
+        //accordion & variations in bg
+
+
+
+        
+
+        .accordion input[type=checkbox]:checked + label {
+
+            &:before {
+                background:url(../img/white-dot.png) no-repeat 50% 50%;
+                background-size:40%;
+            }
+
+        }
+        
+        .all input[type=checkbox]:checked + label {
+            background:$charcoal;
+
+        }
+
+        .all li:hover {
+            background:scale-color($charcoal, $lightness:90%);
+
+        }
+
+        label[for=accordion-all]:before {
+            content:"";
+            background: url(../img/charcoal-dot.png) no-repeat 50% 50%;
+            background-size:40%;
+            left: 0;
+            width: 35px;
+            height: 48px;
+            position: absolute;
+            top: 0;
+
+        }
+
+        .buildings input[type=checkbox]:checked + label {
+            background:$red;
+        }
+
+        .buildings li:hover {
+            background:scale-color($red, $lightness:90%);
+
+        }
+
+        label[for=buildings]:before {
+            content:"";
+            background: url(../img/red-dot.png) no-repeat 50% 50%;
+            background-size:40%;
+            left: 0;
+            width: 35px;
+            height: 48px;
+            position: absolute;
+            top: 0;
+
+        }
+
+        .food input[type=checkbox]:checked + label {
+            background:$orange;
+        }
+
+        .food li:hover {
+            background:scale-color($orange, $lightness:90%);
+
+        }
+
+        label[for=food]:before {
+            content:"";
+            background: url(../img/orange-dot.png) no-repeat 50% 50%;
+            background-size:40%;
+            left: 0;
+            width: 35px;
+            height: 48px;
+            position: absolute;
+            top: 0;
+
+        }
+
+        .recreation--popular-campus-destinations input[type=checkbox]:checked + label {
+            background:$blue;
+        }
+
+        .recreation--popular-campus-destinations li:hover {
+            background:scale-color($blue, $lightness:90%);
+
+        }
+
+        label[for=recreation--popular-campus-destinations]:before {
+            content:"";
+            background: url(../img/blue-dot.png) no-repeat 50% 50%;
+            background-size:40%;
+            left: 0;
+            width: 35px;
+            height: 48px;
+            position: absolute;
+            top: 0;
+
+        }
+
+        .retail--banking input[type=checkbox]:checked + label {
+            background:$green;
+        }
+
+        .retail--banking li:hover {
+            background:scale-color($green, $lightness:90%);
+
+        }
+
+
+        label[for=retail--banking]:before {
+            content:"";
+            background: url(../img/green-dot.png) no-repeat 50% 50%;
+            background-size:40%;
+            left: 0;
+            width: 35px;
+            height: 48px;
+            position: absolute;
+            top: 0;
+
+        }
+        
+        .libraries input[type=checkbox]:checked + label {
+            background:$lightpurple;
+        }
+
+        .libraries li:hover {
+            background:scale-color($lightpurple, $lightness:90%);
+
+        }
+
+        label[for=libraries]:before {
+            content:"";
+            background: url(../img/lightpurple-dot.png) no-repeat 50% 50%;
+            background-size:40%;
+            left: 0;
+            width: 35px;
+            height: 48px;
+            position: absolute;
+            top: 0;
+
+        }
+
+        .regina-destinations input[type=checkbox]:checked + label {
+            background:$purple;
+        }
+
+        .regina-destinations li:hover {
+            background:scale-color($purple, $lightness:90%);
+
+        }
+
+        label[for=regina-destinations]:before {
+            content:"";
+            background: url(../img/purple-dot.png) no-repeat 50% 50%;
+            background-size:40%;
+            left: 0;
+            width: 35px;
+            height: 48px;
+            position: absolute;
+            top: 0;
+
+        }
+
+
+    }
+    .uofrmap-accordion {
+        h4 {
+            background:$grey;
+            padding:10px;
+            color:$charcoal;
+            line-height:1;
+            font-family: sans-serif;
+        }
+
+        a.close {
+            float:right;
+            margin-right:10px;
+        }        
+    }
+
+    .uofrmap-accordion.active {
+        h4 {
+            color:$white;
+        }
+    }
+
+    
+
+}
+
+
+
+
+#map_canvas {
+    width:100%;
+    height:500px;
+}
+
+
+@media only screen and (max-width: 767px) {
+    
+    .urofrmap-sidenav {
+        width:100%;
+        height:100%;
+        overflow:auto;
+    }
+
+}
+
+
+
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers
+ */
+
+.hidden {
+    display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ *
+ * 1. For long content, line feeds are not interpreted as spaces and small width
+ *    causes content to wrap 1 word per line:
+ *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    white-space: nowrap; /* 1 */
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    clip-path: none;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+    white-space: inherit;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contentediaccordionle` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `accordionle` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: accordionle; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+       (min-resolution: 1.25dppx),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   http://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster:
+                                   http://www.sanbeiji.com/archives/953 */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre {
+        white-space: pre-wrap !important;
+    }
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    /*
+     * Printing accordionles:
+     * http://css-discuss.incutio.com/wiki/Printing_accordionles
+     */
+
+    thead {
+        display: accordionle-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}

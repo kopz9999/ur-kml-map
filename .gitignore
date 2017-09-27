@@ -1,0 +1,10 @@
+# IDEs and editors
+/.idea
+config.codekit
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# CSS Cache
+/css/.sass-cache

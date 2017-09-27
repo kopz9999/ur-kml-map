@@ -1,0 +1,453 @@
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+html {
+  color: #222;
+  font-size: 1em;
+  line-height: 1.4; }
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * Vendor-prefixed and regular ::selection selectors cannot be combined:
+ * https://stackoverflow.com/a/16982510/7133471
+ *
+ * Customize the background color to match your design.
+ */
+::selection {
+  background: #b3d4fc;
+  text-shadow: none; }
+
+/*
+ * A better looking default horizontal rule
+ */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0; }
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+  vertical-align: middle; }
+
+/*
+ * Remove default fieldset styles.
+ */
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0; }
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+textarea {
+  resize: vertical; }
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+.browserupgrade {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0; }
+
+/* ==========================================================================
+   U Of R Map Styles
+   ========================================================================== */
+.uofrmap-wrap {
+  position: relative;
+  overflow: hidden;
+  background: #999; }
+  .uofrmap-wrap .uofrmap-header {
+    background: #004529 url("../img/uofrlogo-white.png") no-repeat center center;
+    background-size: auto 100%;
+    height: 3em; }
+    .uofrmap-wrap .uofrmap-header a {
+      color: #fff; }
+    .uofrmap-wrap .uofrmap-header .sidenav-toggle {
+      display: block;
+      padding-left: 1em;
+      padding-top: 0.8em; }
+      .uofrmap-wrap .uofrmap-header .sidenav-toggle img {
+        width: 25px; }
+    .uofrmap-wrap .uofrmap-header .geo {
+      width: 25px; }
+    .uofrmap-wrap .uofrmap-header .search {
+      width: 20px; }
+    .uofrmap-wrap .uofrmap-header ul {
+      list-style: none;
+      float: right;
+      padding-right: 1em;
+      margin: -1.5em 0 0 0; }
+      .uofrmap-wrap .uofrmap-header ul li {
+        display: inline;
+        margin: 0 0 0 0.5em; }
+        .uofrmap-wrap .uofrmap-header ul li a {
+          display: inline-block; }
+          .uofrmap-wrap .uofrmap-header ul li a:hover, .uofrmap-wrap .uofrmap-header ul li a:focus {
+            color: #eee; }
+  .uofrmap-wrap .uofrmap-sidenav.active {
+    left: 0; }
+  .uofrmap-wrap .uofrmap-sidenav {
+    background: #fff;
+    border: 1px solid #eee;
+    height: 100%;
+    position: absolute;
+    left: -37.5%;
+    width: 35%;
+    top: 0;
+    z-index: 99;
+    padding: 1%;
+    -webkit-transition: all 250ms;
+    -o-transition: all 250ms;
+    transition: all 250ms;
+    overflow: auto;
+    /* :checked */
+    /* Icon */ }
+    .uofrmap-wrap .uofrmap-sidenav .sidenav-toggle {
+      display: block;
+      padding-left: 0em;
+      padding-top: 0.8em; }
+      .uofrmap-wrap .uofrmap-sidenav .sidenav-toggle img {
+        width: 35px; }
+    .uofrmap-wrap .uofrmap-sidenav .accordion {
+      position: relative;
+      margin-bottom: 1px;
+      width: 100%;
+      color: #4F4F4F;
+      overflow: hidden; }
+      .uofrmap-wrap .uofrmap-sidenav .accordion ul {
+        margin: 0;
+        padding-left: 0px; }
+      .uofrmap-wrap .uofrmap-sidenav .accordion li {
+        cursor: pointer;
+        font-family: sans-serif;
+        font-size: 1.1em;
+        padding: 0.6em 0.6em;
+        list-style: none; }
+        .uofrmap-wrap .uofrmap-sidenav .accordion li img {
+          width: 18px;
+          margin-right: 10px;
+          vertical-align: top; }
+    .uofrmap-wrap .uofrmap-sidenav input {
+      position: absolute;
+      opacity: 0;
+      z-index: -1; }
+    .uofrmap-wrap .uofrmap-sidenav label {
+      position: relative;
+      display: block;
+      padding: 1em 1em 1em 2.5em;
+      background: #EBEBEB;
+      font-weight: bold;
+      font-family: sans-serif;
+      line-height: 1;
+      cursor: pointer; }
+    .uofrmap-wrap .uofrmap-sidenav .accordion-content {
+      max-height: 0;
+      overflow: auto;
+      background: #fff;
+      -webkit-transition: max-height .35s;
+      -o-transition: max-height .35s;
+      transition: max-height .35s; }
+    .uofrmap-wrap .uofrmap-sidenav .accordion-content p {
+      margin: 1em; }
+    .uofrmap-wrap .uofrmap-sidenav input:checked ~ .accordion-content {
+      max-height: 16em; }
+    .uofrmap-wrap .uofrmap-sidenav label::after {
+      position: absolute;
+      right: 0;
+      top: 0;
+      display: block;
+      width: 3em;
+      height: 3em;
+      line-height: 3;
+      text-align: center;
+      -webkit-transition: all .35s;
+      -o-transition: all .35s;
+      transition: all .35s; }
+    .uofrmap-wrap .uofrmap-sidenav input[type=checkbox]:checked + label {
+      background: #4F4F4F;
+      color: #fff; }
+    .uofrmap-wrap .uofrmap-sidenav input[type=checkbox]:checked + label::after {
+      content: "";
+      background: url("../img/close.png") no-repeat 50% 50%;
+      background-size: 35%; }
+    .uofrmap-wrap .uofrmap-sidenav .accordion input[type=checkbox]:checked + label:before {
+      background: url(../img/white-dot.png) no-repeat 50% 50%;
+      background-size: 40%; }
+    .uofrmap-wrap .uofrmap-sidenav .all input[type=checkbox]:checked + label {
+      background: #4F4F4F; }
+    .uofrmap-wrap .uofrmap-sidenav .all li:hover {
+      background: #ededed; }
+    .uofrmap-wrap .uofrmap-sidenav label[for=accordion-all]:before {
+      content: "";
+      background: url(../img/charcoal-dot.png) no-repeat 50% 50%;
+      background-size: 40%;
+      left: 0;
+      width: 35px;
+      height: 48px;
+      position: absolute;
+      top: 0; }
+    .uofrmap-wrap .uofrmap-sidenav .buildings input[type=checkbox]:checked + label {
+      background: #C11029; }
+    .uofrmap-wrap .uofrmap-sidenav .buildings li:hover {
+      background: #fde3e7; }
+    .uofrmap-wrap .uofrmap-sidenav label[for=buildings]:before {
+      content: "";
+      background: url(../img/red-dot.png) no-repeat 50% 50%;
+      background-size: 40%;
+      left: 0;
+      width: 35px;
+      height: 48px;
+      position: absolute;
+      top: 0; }
+    .uofrmap-wrap .uofrmap-sidenav .food input[type=checkbox]:checked + label {
+      background: #E76A02; }
+    .uofrmap-wrap .uofrmap-sidenav .food li:hover {
+      background: #fff0e4; }
+    .uofrmap-wrap .uofrmap-sidenav label[for=food]:before {
+      content: "";
+      background: url(../img/orange-dot.png) no-repeat 50% 50%;
+      background-size: 40%;
+      left: 0;
+      width: 35px;
+      height: 48px;
+      position: absolute;
+      top: 0; }
+    .uofrmap-wrap .uofrmap-sidenav .recreation--popular-campus-destinations input[type=checkbox]:checked + label {
+      background: #007AC3; }
+    .uofrmap-wrap .uofrmap-sidenav .recreation--popular-campus-destinations li:hover {
+      background: #e0f3ff; }
+    .uofrmap-wrap .uofrmap-sidenav label[for=recreation--popular-campus-destinations]:before {
+      content: "";
+      background: url(../img/blue-dot.png) no-repeat 50% 50%;
+      background-size: 40%;
+      left: 0;
+      width: 35px;
+      height: 48px;
+      position: absolute;
+      top: 0; }
+    .uofrmap-wrap .uofrmap-sidenav .retail--banking input[type=checkbox]:checked + label {
+      background: #004529; }
+    .uofrmap-wrap .uofrmap-sidenav .retail--banking li:hover {
+      background: #d3ffed; }
+    .uofrmap-wrap .uofrmap-sidenav label[for=retail--banking]:before {
+      content: "";
+      background: url(../img/green-dot.png) no-repeat 50% 50%;
+      background-size: 40%;
+      left: 0;
+      width: 35px;
+      height: 48px;
+      position: absolute;
+      top: 0; }
+    .uofrmap-wrap .uofrmap-sidenav .libraries input[type=checkbox]:checked + label {
+      background: #98005C; }
+    .uofrmap-wrap .uofrmap-sidenav .libraries li:hover {
+      background: #ffdbf1; }
+    .uofrmap-wrap .uofrmap-sidenav label[for=libraries]:before {
+      content: "";
+      background: url(../img/lightpurple-dot.png) no-repeat 50% 50%;
+      background-size: 40%;
+      left: 0;
+      width: 35px;
+      height: 48px;
+      position: absolute;
+      top: 0; }
+    .uofrmap-wrap .uofrmap-sidenav .regina-destinations input[type=checkbox]:checked + label {
+      background: #651E77; }
+    .uofrmap-wrap .uofrmap-sidenav .regina-destinations li:hover {
+      background: #f3e2f8; }
+    .uofrmap-wrap .uofrmap-sidenav label[for=regina-destinations]:before {
+      content: "";
+      background: url(../img/purple-dot.png) no-repeat 50% 50%;
+      background-size: 40%;
+      left: 0;
+      width: 35px;
+      height: 48px;
+      position: absolute;
+      top: 0; }
+  .uofrmap-wrap .uofrmap-accordion h4 {
+    background: #EBEBEB;
+    padding: 10px;
+    color: #4F4F4F;
+    line-height: 1;
+    font-family: sans-serif; }
+  .uofrmap-wrap .uofrmap-accordion a.close {
+    float: right;
+    margin-right: 10px; }
+  .uofrmap-wrap .uofrmap-accordion.active h4 {
+    color: #fff; }
+
+#map_canvas {
+  width: 100%;
+  height: 500px; }
+
+@media only screen and (max-width: 767px) {
+  .urofrmap-sidenav {
+    width: 100%;
+    height: 100%;
+    overflow: auto; } }
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+/*
+ * Hide visually and from screen readers
+ */
+.hidden {
+  display: none !important; }
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ *
+ * 1. For long content, line feeds are not interpreted as spaces and small width
+ *    causes content to wrap 1 word per line:
+ *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
+ */
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  white-space: nowrap;
+  /* 1 */ }
+
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+  clip: auto;
+  clip-path: none;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+  white-space: inherit; }
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+.invisible {
+  visibility: hidden; }
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contentediaccordionle` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `accordionle` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  /* 1 */
+  display: accordionle;
+  /* 2 */ }
+
+.clearfix:after {
+  clear: both; }
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+@media only screen and (min-width: 35em) {
+  /* Style adjustments for viewports that meet the condition */ }
+@media print, (min-resolution: 1.25dppx), (min-resolution: 120dpi) {
+  /* Style adjustments for high resolution devices */ }
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   http://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+@media print {
+  *,
+  *:before,
+  *:after {
+    background: transparent !important;
+    color: #000 !important;
+    /* Black prints faster:
+       http://www.sanbeiji.com/archives/953 */
+    box-shadow: none !important;
+    text-shadow: none !important; }
+
+  a,
+  a:visited {
+    text-decoration: underline; }
+
+  a[href]:after {
+    content: " (" attr(href) ")"; }
+
+  abbr[title]:after {
+    content: " (" attr(title) ")"; }
+
+  /*
+   * Don't show links that are fragment identifiers,
+   * or use the `javascript:` pseudo protocol
+   */
+  a[href^="#"]:after,
+  a[href^="javascript:"]:after {
+    content: ""; }
+
+  pre {
+    white-space: pre-wrap !important; }
+
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid; }
+
+  /*
+   * Printing accordionles:
+   * http://css-discuss.incutio.com/wiki/Printing_accordionles
+   */
+  thead {
+    display: accordionle-header-group; }
+
+  tr,
+  img {
+    page-break-inside: avoid; }
+
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3; }
+
+  h2,
+  h3 {
+    page-break-after: avoid; } }
