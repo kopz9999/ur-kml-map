@@ -168,14 +168,57 @@ $grey: #EBEBEB;
           transition: all 250ms;
           overflow:auto;
 
-          .sidenav-toggle {
+        @media only screen and (max-width : 767px){
+            width:100%;
+            left:-102.5%;
+            top:0;
+            position:fixed;
+        }
+
+
+        .mobile-search-bar {
+            display:none;
+            background:$grey;
+            position:relative;
+            width:88%;
+            margin:0 auto 1em;
+            opacity:1;
+            border:0;
+            height:35px;
+            font-size:1.1em;
+            padding:5px;
+
+
+            @media only screen and (max-width : 767px){
+                display:block;
+            }
+        }
+
+
+        .mobile-logo {
+            display:none;
+            background:#004529;
+
+            @media only screen and (max-width : 767px){
+                display:block;
+                width: 50%;
+                margin: 1em auto;
+            }
+        }
+
+        .sidenav-toggle {
             display:block;
             padding-left:1em;
             padding-top:0.8em;
-                img {
-                    width:35px
-                }
+            img {
+                width:35px
             }
+            @media only screen and (max-width : 767px){
+                position:absolute;
+                top:40px;
+                left:20px;
+            }
+        }
 
         // accordion styles
         .accordion {

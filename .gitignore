@@ -8,3 +8,6 @@ Thumbs.db
 
 # CSS Cache
 /css/.sass-cache
+
+# dependencies
+/node_modules
