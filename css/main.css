@@ -145,8 +145,7 @@ textarea {
         .uofrmap-wrap .uofrmap-sidenav .mobile-search-bar {
           display: block; } }
     .uofrmap-wrap .uofrmap-sidenav .mobile-logo {
-      display: none;
-      background: #004529; }
+      display: none; }
       @media only screen and (max-width: 767px) {
         .uofrmap-wrap .uofrmap-sidenav .mobile-logo {
           display: block;
