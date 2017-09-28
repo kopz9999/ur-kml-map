@@ -203,10 +203,10 @@ $(function() {
         "style": style.trim()
       })
 //output as a navigation
-      html = "<li class=\"" + convertToSlug(style) + "\"><img src=\"" + getIcon(style) + "\" alt=\"" + place + "\">" + place + "</li>";
+      html = "<li data-index=\""+index+"\" class=\"" + convertToSlug(style) + "\"><img src=\"" + getIcon(style) + "\" alt=\"" + place + "\">" + place + "</li>";
 
 
-      showall += "<li class=\"" + convertToSlug(style) + "\"><img src=\"" + getIcon(style) + "\" alt=\"" + place + "\">" + place + "</li>";
+      showall += "<li data-index=\""+index+"\" class=\"" + convertToSlug(style) + "\"><img src=\"" + getIcon(style) + "\" alt=\"" + place + "\">" + place + "</li>";
 
 
 //add places to category
@@ -303,6 +303,7 @@ $(function() {
         });
         marker.locid = idx+1;
         marker.infowindow = infowindow;
+        marker.currentIcon = icon;
         markers[markers.length] = marker;
 
         var sideHtml = '<p class="loc" data-locid="'+marker.locid+'"><b>'+mapData.place+'</b><br/>';
@@ -316,6 +317,7 @@ $(function() {
         /* */
       });
       setUpSearchBar(jQuery, map, markers);
+      setUpFlyToMarker(jQuery, map, markers);
       /* */
     }, 200);
   });
