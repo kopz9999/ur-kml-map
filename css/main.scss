@@ -109,6 +109,77 @@ $purple: #651E77;
 $charcoal: #4F4F4F;
 $grey: #EBEBEB;
 
+.info-window {
+    padding: 10px;
+    .image-container, .description-container {
+        display: inline-block;
+        vertical-align: top;
+    }
+    .description-container {
+        max-width: 300px;
+        margin-left: 10px;
+        font-family: sans-serif;
+
+        @media only screen and (max-width : 767px){
+            max-width: 175px;
+        }
+
+        h2 {
+            font-weight: normal;
+            margin: 0;
+        }
+        h3 {
+            margin-top: 5px;
+            font-weight: normal;
+            word-wrap: break-word;
+        }
+        button {
+            border: none;
+            font: inherit;
+            cursor: pointer;
+            outline: inherit !important;
+            color: $white;
+            background-color: $blue;
+            padding: 7px 12px;
+            svg, span {
+                display: inline-block;
+                vertical-align: middle;
+            }
+
+            svg {
+                fill: white;
+                width: 15px;
+                height: 10px;
+            }
+        }
+    }
+    .image-container {
+        width: 100px;
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+    &.info-buildings {
+        button { background-color: $red }
+    }
+    &.info-food {
+        button { background-color: $orange }
+    }
+    &.info-recreation--popular-campus-destinations {
+        button { background-color: $blue }
+    }
+    &.info-retail--banking {
+        button { background-color: $green }
+    }
+    &.info-libraries {
+        button { background-color: $lightpurple }
+    }
+    &.info-regina-destinations {
+        button { background-color: $purple }
+    }
+}
+
 .uofrmap-wrap {
     position:relative;
     overflow:hidden;
@@ -213,8 +284,22 @@ $grey: #EBEBEB;
         }
 
         #accordion-wrapper {
-            .accordion-view, .search-view {
+            .accordion-view, .search-view, .place-view {
                 display: none;
+            }
+
+            &.place-mode {
+                .place-view {
+                    margin-left: 25px;
+                    width: 315px;
+                    display: block;
+                    font-family: sans-serif;
+                    word-wrap: break-word;
+                    img {
+                        height: auto;
+                        max-width: 100%;
+                    }
+                }
             }
 
             &.accordion-mode {

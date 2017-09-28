@@ -9,6 +9,30 @@ var markers = [];
 var lastinfowindow;
 var locIndex;
 var infowindow;
+var currWindow;
+var currElement;
+var sidebar;
+var accordionWrapper;
+
+function viewDetails() {
+  if (!currElement) return;
+  sidebar.addClass('active');
+  accordionWrapper.removeClass();
+  accordionWrapper.addClass('place-mode');
+  sidebar.find('.place-view').html('<h3>'+ currElement.place +'</h3>' +
+    currElement.description.html());
+}
+
+function ValidURL(str) {
+  var pattern = new RegExp('^(https?:\\/\\/)?'+ // protocol
+    '((([a-z\\d]([a-z\\d-]*[a-z\\d])*)\\.)+[a-z]{2,}|'+ // domain name and extension
+    '((\\d{1,3}\\.){3}\\d{1,3}))'+ // OR ip (v4) address
+    '(\\:\\d+)?'+ // port
+    '(\\/[-a-z\\d%_.~+&:]*)*'+ // path
+    '(\\?[;&a-z\\d%_.,~+&:=-]*)?'+ // query string
+    '(\\#[-a-z\\d_]*)?$','i'); // fragment locator
+  return pattern.test(str);
+}
 
 //A utility function that translates a given style to an icon
 function getIcon(style) {
@@ -123,16 +147,19 @@ function doFilter() {
 }
 
 $(function() {
+  var infoWindowTemplate = jQuery('#info-window-template');
+  sidebar = jQuery(".uofrmap-sidenav");
+  accordionWrapper = jQuery("#accordion-wrapper");
+
   //toggle side nav
   function initToggleNav() {
-    var sidebar = jQuery(".uofrmap-sidenav");
-    var accordionWrapper = jQuery("#accordion-wrapper");
     var searchMode = jQuery(".search-view");
 
     jQuery(".sidenav-toggle").click(function() {
       sidebar.toggleClass("active");
       accordionWrapper.removeClass();
       accordionWrapper.addClass('accordion-mode');
+      markers.forEach(function (t) { t.setMap(map) });
     });
     jQuery(".sidenav-search-toggle").click(function() {
       sidebar.toggleClass("active");
@@ -204,6 +231,7 @@ $(function() {
 //store as JSON
       c = coords.split(",")
       nav.push({
+        "description" : jQuery('<div>'+jQuery(this).find("description").text()+'</div>'),
         "place": place.trim(),
         "lng": c[0].trim(),
         "lat": c[1].trim(),
@@ -281,7 +309,6 @@ $(function() {
     /* */
 
     setTimeout(function() {
-
       nav.forEach(function(mapData,idx) {
 
         /* */
@@ -302,12 +329,27 @@ $(function() {
           icon: icon,
           optimized: true
         });
-        var contentHtml = "<div style='width:300px;height:200px'><h3>"+mapData.place+"</h3>"+mapData.place+"</div>";
+        var contentWindow = jQuery(infoWindowTemplate.text());
+        var img = mapData.description.find('img').get(0);
+        if (img) { contentWindow.find('.image-container').html(img.outerHTML); }
+        contentWindow.find('.title').text(mapData.place);
+        var subTitle = mapData.description.contents().toArray()
+                        .filter(function(el) { return el.nodeName == '#text' })
+                        .map(function (t) {
+                          if (ValidURL(t.data)) return '<a href="'+t.data+'">'+t.data+'</a>';
+                          return t.data;
+                        });
+        contentWindow.find('.sub-title').html(subTitle.join(' '));
+        contentWindow.addClass('info-' + mapData.folder);
         var infowindow = new google.maps.InfoWindow({
-          content: contentHtml
+          content: contentWindow.get(0).outerHTML
         });
+
         google.maps.event.addListener(marker, 'click', function() {
+          if (currWindow) currWindow.close();
           infowindow.open(map,marker);
+          currWindow = infowindow;
+          currElement = mapData;
         });
         marker.locid = idx+1;
         marker.infowindow = infowindow;
@@ -347,7 +389,9 @@ $(function() {
     };
     map = new google.maps.Map(document.getElementById("map"), myOptions);
 
-    infoWindow = new google.maps.InfoWindow;
+    google.maps.event.addListener(map, 'click', function() {
+      if (currWindow) currWindow.close();
+    });
   }
 
   function handleLocationError(browserHasGeolocation, infoWindow, pos) {

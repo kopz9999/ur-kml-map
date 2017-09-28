@@ -80,6 +80,58 @@ textarea {
 /* ==========================================================================
    U Of R Map Styles
    ========================================================================== */
+.info-window {
+  padding: 10px; }
+  .info-window .image-container, .info-window .description-container {
+    display: inline-block;
+    vertical-align: top; }
+  .info-window .description-container {
+    max-width: 300px;
+    margin-left: 10px;
+    font-family: sans-serif; }
+    @media only screen and (max-width: 767px) {
+      .info-window .description-container {
+        max-width: 175px; } }
+    .info-window .description-container h2 {
+      font-weight: normal;
+      margin: 0; }
+    .info-window .description-container h3 {
+      margin-top: 5px;
+      font-weight: normal;
+      word-wrap: break-word; }
+    .info-window .description-container button {
+      border: none;
+      font: inherit;
+      cursor: pointer;
+      outline: inherit !important;
+      color: #fff;
+      background-color: #007AC3;
+      padding: 7px 12px; }
+      .info-window .description-container button svg, .info-window .description-container button span {
+        display: inline-block;
+        vertical-align: middle; }
+      .info-window .description-container button svg {
+        fill: white;
+        width: 15px;
+        height: 10px; }
+  .info-window .image-container {
+    width: 100px; }
+    .info-window .image-container img {
+      width: 100%;
+      height: auto; }
+  .info-window.info-buildings button {
+    background-color: #C11029; }
+  .info-window.info-food button {
+    background-color: #E76A02; }
+  .info-window.info-recreation--popular-campus-destinations button {
+    background-color: #007AC3; }
+  .info-window.info-retail--banking button {
+    background-color: #004529; }
+  .info-window.info-libraries button {
+    background-color: #98005C; }
+  .info-window.info-regina-destinations button {
+    background-color: #651E77; }
+
 .uofrmap-wrap {
   position: relative;
   overflow: hidden;
@@ -158,8 +210,17 @@ textarea {
           display: block;
           width: 200px;
           margin: 1em auto; } }
-    .uofrmap-wrap .uofrmap-sidenav #accordion-wrapper .accordion-view, .uofrmap-wrap .uofrmap-sidenav #accordion-wrapper .search-view {
+    .uofrmap-wrap .uofrmap-sidenav #accordion-wrapper .accordion-view, .uofrmap-wrap .uofrmap-sidenav #accordion-wrapper .search-view, .uofrmap-wrap .uofrmap-sidenav #accordion-wrapper .place-view {
       display: none; }
+    .uofrmap-wrap .uofrmap-sidenav #accordion-wrapper.place-mode .place-view {
+      margin-left: 25px;
+      width: 315px;
+      display: block;
+      font-family: sans-serif;
+      word-wrap: break-word; }
+      .uofrmap-wrap .uofrmap-sidenav #accordion-wrapper.place-mode .place-view img {
+        height: auto;
+        max-width: 100%; }
     .uofrmap-wrap .uofrmap-sidenav #accordion-wrapper.accordion-mode .accordion-view {
       display: block; }
     .uofrmap-wrap .uofrmap-sidenav #accordion-wrapper.search-mode .search-view {
