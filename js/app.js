@@ -12,7 +12,6 @@ var infowindow;
 
 //A utility function that translates a given style to an icon
 function getIcon(style) {
-  console.log(style);
   switch (style) {
     case "#icon-1753-0288D1":
       return "img/green-atm.png";
@@ -152,8 +151,8 @@ $(function() {
 
   jQuery.get("map/map.kml", function(data) {
 
-    html = "";
-    showall = "";
+    var html = "";
+    var showall = "";
 
     function convertToSlug(Text) {
       return Text
@@ -233,6 +232,7 @@ $(function() {
 
 //add places to all
     $(".accordion.all ul").append(showall);
+    $(".search-mode .search-content ul").append(showall);
 
 
 //bind clicks on your navigation to scroll to a placemark

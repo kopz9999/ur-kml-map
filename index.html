@@ -46,7 +46,14 @@ html, body {
       <a href="#" class="sidenav-toggle"><img src="img/back.png" alt="hide nav"></a><br><br>
 
       <div class="search-mode">
-        <input type="text" id="mobile-search-bar" class="mobile-search-bar" onkeyup="" placeholder="Search for places">
+        <div class="accordion all">
+          <input type="text" id="mobile-search-bar" class="mobile-search-bar" onkeyup="" placeholder="Search for places">
+          <div class="search-content">
+            <!-- more accordions and checkboxes get appended via JS -->
+            <ul></ul>
+          </div>
+          <div class="no-results hidden">Sorry, no results found</div>
+        </div>
       </div>
 
       <div class="accordion-mode">
