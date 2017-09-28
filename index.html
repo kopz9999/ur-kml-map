@@ -29,9 +29,7 @@ html, body {
 </style>
 </head>
 <body>
-  <h3>Map demo with GET</h3>
-
-<script>
+  <script>
   /*
   Impliment changes by Sharjeel Alam: https://www.linkedin.com/in/sharjeelalam/
   */
@@ -415,95 +413,81 @@ function handleLocationError(browserHasGeolocation, infoWindow, pos) {
 
 });
 </script>
+  <div class="uofrmap-wrap">
+    <div class="uofrmap-header">
+      <a href="#" class="sidenav-toggle"><img src="img/list.png" alt="Open Nav"></a>
+      <ul>
+        <li><a href="#"><img src="img/geo.png" alt="Geo" class="geo"></a></li>
 
+        <!-- Note: This search should filter sidenav items based on Title keywords -->
 
+        <li><a href="#"><img src="img/search.png" alt="Search" class="search"></a></li>
+      </ul>
+    </div>
+    <div class="uofrmap-sidenav">
+      <img src="img/mobile-logo.png" class="mobile-logo">
 
-</div>
+      <a href="#" class="sidenav-toggle"><img src="img/back.png" alt="hide nav"></a><br><br>
 
+      <div class="search-mode">
+        <input type="text" id="mobile-search-bar" class="mobile-search-bar" onkeyup="" placeholder="Search for places">
+      </div>
 
-
-<div class="uofrmap-wrap">
-  <div class="uofrmap-header">
-    <a href="#" class="sidenav-toggle"><img src="img/list.png" alt="Open Nav"></a>
-    <ul>
-      <li><a href="#"><img src="img/geo.png" alt="Geo" class="geo"></a></li>
-
-      <!-- Note: This search should filter sidenav items based on Title keywords -->
-
-      <li><a href="#"><img src="img/search.png" alt="Search" class="search"></a></li>
-    </ul>
-  </div>
-  <div class="uofrmap-sidenav">
-
-
-    <img src="img/uofrlogo-white.png" class="mobile-logo">
-    <input type="text" id="mobile-search-bar" class="mobile-search-bar" onkeyup="" placeholder="Search for places">
-
-    <a href="#" class="sidenav-toggle"><img src="img/back.png" alt="hide nav"></a><br><br>
-
-
-
-    <!-- Note: checkboxes should show or hide markers based on the folder they belong to in KML -->
-
-    <div class="accordion all">
-      <input id="accordion-all" type="checkbox" value="accordion-all" name="accordions" checked="checked">
-      <label for="accordion-all">Show All</label>
-      <div class="accordion-content">
-        <!-- more accordions and checkboxes get appended via JS -->
-        <ul></ul>
+      <div class="accordion-mode">
+        <!-- Note: checkboxes should show or hide markers based on the folder they belong to in KML -->
+        <div class="accordion all">
+          <input id="accordion-all" type="checkbox" value="accordion-all" name="accordions" checked="checked">
+          <label for="accordion-all">Show All</label>
+          <div class="accordion-content">
+            <!-- more accordions and checkboxes get appended via JS -->
+            <ul></ul>
+          </div>
+        </div>
       </div>
     </div>
 
-
+    <div id="map" style="width:100%;height: 600px;">
+    </div>
   </div>
-
-  <div id="map" style="width:100%;height: 600px;">
-
-  </div>
-
-
-</div>
-<script type="text/javascript">    
-  function doFilter() {
-    var markersVisible = [];
-    if(!locIndex) {
-      locIndex = {};
-      for(var x=0, len=markers.length; x<len; x++) {
-        locIndex[markers[x].locid] = x;
+  <script type="text/javascript">
+    function doFilter() {
+      var markersVisible = [];
+      if(!locIndex) {
+        locIndex = {};
+        for(var x=0, len=markers.length; x<len; x++) {
+          locIndex[markers[x].locid] = x;
+        }
       }
-    }
 
-    var checked = $("input[type=checkbox]:checked");
-    var selTypes = [];
-    for(var i=0, len=checked.length; i<len; i++) {
-      selTypes.push($(checked[i]).val());
-    }
-    for(var i=0, len=nav.length; i<len; i++) {
-      var sideDom = "p.loc[data-locid="+(i+1)+"]";
+      var checked = $("input[type=checkbox]:checked");
+      var selTypes = [];
+      for(var i=0, len=checked.length; i<len; i++) {
+        selTypes.push($(checked[i]).val());
+      }
+      for(var i=0, len=nav.length; i<len; i++) {
+        var sideDom = "p.loc[data-locid="+(i+1)+"]";
 
-//Only hide if length != 0
-if(checked.length !=0 && selTypes.indexOf(nav[i].folder) < 0) {
-  $(sideDom).hide();
-  markers[locIndex[i+1]].setVisible(false);
-} else {
-  $(sideDom).show();
-  markers[locIndex[i+1]].setVisible(true);
-  markersVisible.push(locIndex[i+1]);
-}
-}
-console.log( nav.length + " "+  markersVisible.length )
-if ( nav.length == markersVisible.length){
-  $("#accordion-all").prop('checked', true );  
-}
-else { $("#accordion-all").prop('checked', false );  }
+  //Only hide if length != 0
+  if(checked.length !=0 && selTypes.indexOf(nav[i].folder) < 0) {
+    $(sideDom).hide();
+    markers[locIndex[i+1]].setVisible(false);
+  } else {
+    $(sideDom).show();
+    markers[locIndex[i+1]].setVisible(true);
+    markersVisible.push(locIndex[i+1]);
+  }
+  }
+  console.log( nav.length + " "+  markersVisible.length )
+  if ( nav.length == markersVisible.length){
+    $("#accordion-all").prop('checked', true );
+  }
+  else { $("#accordion-all").prop('checked', false );  }
 
-}
-</script>
-<script type="text/javascript" src="http://maps.google.com/maps/api/js?key=AIzaSyDWmcvrwDc5n7I4zWndFdPs-JV170CI3bA"></script>
-<script src="js/plugins.js"></script>
-<script src="js/main.js"></script>
-
+  }
+  </script>
+  <script type="text/javascript" src="http://maps.google.com/maps/api/js?key=AIzaSyDWmcvrwDc5n7I4zWndFdPs-JV170CI3bA"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
   <script src="js/search-bar.js"></script>
-
 </body>
 </html>
