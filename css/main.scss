@@ -175,8 +175,8 @@ $grey: #EBEBEB;
             position:fixed;
         }
 
-
         .mobile-search-bar {
+            z-index: 100;
             display:none;
             background:$grey;
             position:relative;
@@ -186,8 +186,7 @@ $grey: #EBEBEB;
             border:0;
             height:35px;
             font-size:1.1em;
-            padding:5px;
-
+            padding: 5px 15px;
 
             @media only screen and (max-width : 767px){
                 display:block;
