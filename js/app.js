@@ -178,7 +178,15 @@ $(function() {
     var length = $(data).find("Placemark").length;
 
 // loop through placemarks tags
-    $(data).find("Placemark").each(function(index, value) {
+    var placeMarks = $(data).find("Placemark");
+    var orderedPlaceMarks = placeMarks.sort(function(a, b){
+      var aName = jQuery(a).find("name").text();
+      var bName = jQuery(b).find("name").text();
+      if(aName < bName) return -1;
+      if(aName > bName) return 1;
+      return 0;
+    });
+    orderedPlaceMarks.each(function(index, value) {
 
       folder = $(this).parent().find("name").eq(0).text();
 // console.log(folder);
