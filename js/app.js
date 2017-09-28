@@ -326,7 +326,7 @@ $(function() {
       });
       setUpSearchBar(jQuery, map, markers);
       setUpFlyToMarker(jQuery, map, markers);
-      /* */
+      setGeoLocation(jQuery, map, markers);
     }, 200);
   });
 
