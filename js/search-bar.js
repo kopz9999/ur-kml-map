@@ -29,7 +29,7 @@ function setUpSearchBar(jQuery, map, markers) {
   }
   
   function initSearchBar() {
-    var accordionContents = jQuery('.search-mode ul li');
+    var accordionContents = jQuery('.search-view ul li');
     var noResults = jQuery('.no-results');
     var input = jQuery('#mobile-search-bar');
     var value = null, currentPlace, placeDescription, matches;

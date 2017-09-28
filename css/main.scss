@@ -204,14 +204,29 @@ $grey: #EBEBEB;
             }
         }
 
-        .search-mode {
-            .no-results, .search-content {
-                width: 88%;
-                margin: 0 auto 1em;
+        #accordion-wrapper {
+            .accordion-view, .search-view {
+                display: none;
             }
-            .no-results {
-                font-family: sans-serif;
-                font-size: 1.1em;
+
+            &.accordion-mode {
+                .accordion-view {
+                    display: block;
+                }
+            }
+
+            &.search-mode {
+                .search-view {
+                    display: block;
+                    .no-results, .search-content {
+                        width: 88%;
+                        margin: 0 auto 1em;
+                    }
+                    .no-results {
+                        font-family: sans-serif;
+                        font-size: 1.1em;
+                    }
+                }
             }
         }
 

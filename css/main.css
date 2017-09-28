@@ -151,12 +151,18 @@ textarea {
           display: block;
           width: 200px;
           margin: 1em auto; } }
-    .uofrmap-wrap .uofrmap-sidenav .search-mode .no-results, .uofrmap-wrap .uofrmap-sidenav .search-mode .search-content {
-      width: 88%;
-      margin: 0 auto 1em; }
-    .uofrmap-wrap .uofrmap-sidenav .search-mode .no-results {
-      font-family: sans-serif;
-      font-size: 1.1em; }
+    .uofrmap-wrap .uofrmap-sidenav #accordion-wrapper .accordion-view, .uofrmap-wrap .uofrmap-sidenav #accordion-wrapper .search-view {
+      display: none; }
+    .uofrmap-wrap .uofrmap-sidenav #accordion-wrapper.accordion-mode .accordion-view {
+      display: block; }
+    .uofrmap-wrap .uofrmap-sidenav #accordion-wrapper.search-mode .search-view {
+      display: block; }
+      .uofrmap-wrap .uofrmap-sidenav #accordion-wrapper.search-mode .search-view .no-results, .uofrmap-wrap .uofrmap-sidenav #accordion-wrapper.search-mode .search-view .search-content {
+        width: 88%;
+        margin: 0 auto 1em; }
+      .uofrmap-wrap .uofrmap-sidenav #accordion-wrapper.search-mode .search-view .no-results {
+        font-family: sans-serif;
+        font-size: 1.1em; }
     .uofrmap-wrap .uofrmap-sidenav .sidenav-toggle {
       display: block;
       padding-left: 1em;

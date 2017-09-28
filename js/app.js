@@ -123,22 +123,21 @@ function doFilter() {
 }
 
 $(function() {
-  var accordionContainer = jQuery('.accordion-mode');
-  var searchMode = jQuery(".search-mode");
-
   //toggle side nav
   function initToggleNav() {
     var sidebar = jQuery(".uofrmap-sidenav");
+    var accordionWrapper = jQuery("#accordion-wrapper");
+    var searchMode = jQuery(".search-view");
 
     jQuery(".sidenav-toggle").click(function() {
       sidebar.toggleClass("active");
-      searchMode.addClass('hidden');
-      accordionContainer.removeClass('hidden');
+      accordionWrapper.removeClass();
+      accordionWrapper.addClass('accordion-mode');
     });
     jQuery(".sidenav-search-toggle").click(function() {
       sidebar.toggleClass("active");
-      searchMode.removeClass('hidden');
-      accordionContainer.addClass('hidden');
+      accordionWrapper.removeClass();
+      accordionWrapper.addClass('search-mode');
       searchMode.find('.mobile-search-bar').focus();
     });
   }
@@ -162,7 +161,7 @@ $(function() {
     }
 
 //loop through folders
-
+    var accordionContainer = jQuery('.accordion-view');
     $(data).find("Folder").each(function(index, value) {
 
       folder = $(this).find("name").eq(0).text();
