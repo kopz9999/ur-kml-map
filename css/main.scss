@@ -8,6 +8,13 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
+/* Optional: Makes the sample page fill the window. */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 html {
     color: #222;
     font-size: 1em;
@@ -105,6 +112,7 @@ $grey: #EBEBEB;
 .uofrmap-wrap {
     position:relative;
     overflow:hidden;
+    height: 100%;
     background:#999;
 
     .uofrmap-header {
@@ -541,7 +549,10 @@ $grey: #EBEBEB;
 }
 
 
-
+#map {
+    width: 100%;
+    height: calc(100% - 48px);
+}
 
 #map_canvas {
     width:100%;

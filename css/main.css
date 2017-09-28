@@ -6,6 +6,12 @@
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
+/* Optional: Makes the sample page fill the window. */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0; }
+
 html {
   color: #222;
   font-size: 1em;
@@ -77,6 +83,7 @@ textarea {
 .uofrmap-wrap {
   position: relative;
   overflow: hidden;
+  height: 100%;
   background: #999; }
   .uofrmap-wrap .uofrmap-header {
     background: #004529 url("../img/uofrlogo-white.png") no-repeat center center;
@@ -341,6 +348,10 @@ textarea {
     margin-right: 10px; }
   .uofrmap-wrap .uofrmap-accordion.active h4 {
     color: #fff; }
+
+#map {
+  width: 100%;
+  height: calc(100% - 48px); }
 
 #map_canvas {
   width: 100%;
